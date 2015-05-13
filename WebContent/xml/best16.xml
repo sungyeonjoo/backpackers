@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>30, Chungmin-gil, Nagan-myeon, Suncheon-si, Jeollanam-do</addr1>
+<areacode>38</areacode>
+<cat1>A02</cat1>
+<cat2>A0201</cat2>
+<cat3>A02010600</cat3>
+<contentid>1803826</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20130410153806</createdtime>
+<directions>From Dong Seoul Bus Terminal or Seoul Central City Bus Terminal.&lt;br&gt; Take an intercity bus to SuncheonIntercity Bus Terminal.&lt;br&gt;&lt;br&gt;From Suncheon Bus Terminal.&lt;br&gt; Cross Suncheon3-gil st. and walk along Palmaro st. to the bus stop.&lt;br&gt;Take bus 61, 63 or 68 to Naganeupseong Folk Village. (50 min-ride)</directions>
+<dongcode>4</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/42/493442_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/42/493442_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://nagan.suncheon.go.kr/nagan/&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;http://nagan.suncheon.go.kr/nagan&lt;/a&gt;&lt;br&gt;(English, Korean, Japanese, Chinese)</homepage>
+<mapx>127.33979589861876</mapx>
+<mapy>34.90709517626397</mapy>
+<masterid>127931</masterid>
+<mlevel>7</mlevel>
+<modifiedtime>20150311102304</modifiedtime>
+<overview>Naganeupseong Folk Village is located in Jeollanam-do Province, and contains a town castle that is over 18,000 Pyeong (1 pyeong = 3.3 sq m) in size. Within the east, south and west of the castle, about 100 families still reside, and the castle area has been very well preserved. You can observe the daily dwellings indigenous to the south provincial area such as the kitchen area, the clay rooms, and Korean-style verandas. There are also 9 houses designated as important cultural resources, and numerous straw-roof houses as well. The folk village’s other source of pride is the monument of General Im Kyeong-Eop (1594~1646). At every first full moon of the new year, they hold a ritual ceremony and celebration at the general’s monument, with games such as seesaw jumping, swings, and other folk activities.&lt;br&gt;&lt;br&gt;When you enter the front gate of Naganeupseong Folk Village, on the east side of the castle (called “Nakpung-ru”), you see a straight road leading to town. Follow along this road and you will come across the General Im Kyeong-Eop Monument, resource center, and other interesting sites. You may also walk to the end of this road, climb up to the castle itself, and walk along the castle wall to the south. The entire castle is exceptionally well-preserved, and you can view the whole town from the top level.</overview>
+<sigungucode>11</sigungucode>
+<title>Naganeupseong Folk Village (낙안읍성)</title>
+<zipcode>540-911</zipcode>
+</item>
+
+<item>
+<contentid>1803826</contentid>
+<contenttypeid>76</contenttypeid>
+<expguide>[Daily Programs] &lt;br&gt;Learning gukak (Korean music) &lt;br&gt;Gayageum performance &lt;br&gt;Natural dyeing &lt;br&gt;Weaving&lt;br&gt;Traditional school experience&lt;br&gt;Making hanji art &lt;br&gt;Making straw art&lt;br&gt;Making pottery &lt;br&gt;Old torture tools &lt;br&gt;Wood craft&lt;br&gt; &lt;br&gt;[Weekend programs] &lt;br&gt;Changing of guards &lt;br&gt;Gayageum performances&lt;br&gt;Gunak (traditional Korean martial art music performed) &lt;br&gt;Traditional etiquette &amp; Tea ceremony&lt;br&gt;Riding an ox cart</expguide>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-2-1330 (Korean, English, Japanese, Chinese) &lt;br&gt;• For more info: +82-61-749-3347,&lt;br&gt;+82-61-749-3893, +82-61-744-8111</infocenter>
+<parking>Available (around east and west gates)</parking>
+<restdate>Open all year round</restdate>
+<usetime>Dec-Jan 09:00-17:00&lt;br&gt;Feb-Apr / Nov 09:00-18:00&lt;br&gt;May-Oct 08:30-18:30</usetime>
+</item>
+
+<item>
+<contentid>1803826</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Admission Fees</infoname>
+<infotext>Adults (ages over 19): 2,000 won / Group: 1,500 won&lt;br&gt;Youths (ages 13-18): 1,500 won / Group: 1,000 won &lt;br&gt; Children (ages 7-12): 1,000 won / Group: 500 won &lt;br&gt; * Group : 30 people or more </infotext>
+<serialnum>0</serialnum>
+</item>
+<item>
+<contentid>1803826</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Available Facilities</infoname>
+<infotext>Inns, restaurants, gift shops, snack shops </infotext>
+<serialnum>1</serialnum>
+</item>
+<item>
+<contentid>1803826</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Restrooms</infoname>
+<infotext>Available </infotext>
+<serialnum>2</serialnum>
+</item>
+<item>
+<contentid>1803826</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Facilities for the Handicapped</infoname>
+<infotext>Wheelchair rental, toilet, parking spaces&lt;br&gt;*Walking along Nagan Fortress may be difficult for those with disabilities because access is by stairs only.</infotext>
+<serialnum>3</serialnum>
+</item>
+<item>
+<contentid>1803826</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Parking Fees</infoname>
+<infotext>Free of charge </infotext>
+<serialnum>4</serialnum>
+</item>
+
+<item>
+<contentid>1803826</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/94/221594_image2_1.jpg</originimgurl>
+<serialnum>221594_9</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/94/221594_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>1803826</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/96/221596_image2_1.jpg</originimgurl>
+<serialnum>221596_8</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/96/221596_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>1803826</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/09/493409_image2_1.jpg</originimgurl>
+<serialnum>493409_31</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/09/493409_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>1803826</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/10/493410_image2_1.jpg</originimgurl>
+<serialnum>493410_30</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/10/493410_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>1803826</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/12/493412_image2_1.jpg</originimgurl>
+<serialnum>493412_29</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/12/493412_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>1803826</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/13/493413_image2_1.jpg</originimgurl>
+<serialnum>493413_28</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/13/493413_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>1803826</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/14/493414_image2_1.jpg</originimgurl>
+<serialnum>493414_27</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/14/493414_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>1803826</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/15/493415_image2_1.jpg</originimgurl>
+<serialnum>493415_26</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/15/493415_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>1803826</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/16/493416_image2_1.jpg</originimgurl>
+<serialnum>493416_25</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/16/493416_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>1803826</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/17/493417_image2_1.jpg</originimgurl>
+<serialnum>493417_24</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/17/493417_image3_1.jpg</smallimageurl>
+</item>
+
+</items>
+</body>
+</response>
+						

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>122, Haeinsa-gil, Gaya-myeon, Hapcheon-gun, Gyeongsangnam-do</addr1>
+<areacode>36</areacode>
+<cat1>A02</cat1>
+<cat2>A0201</cat2>
+<cat3>A02010800</cat3>
+<contentid>264238</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20030108181319</createdtime>
+<directions>From Deagu Seobu  Terminal (Seongdangmot Station, Daegu Subway Line 1, Exit 3)&lt;br&gt;Take an intercity bus to Haeinsa Temple.&lt;br&gt;Bus schedule: 40min intervals / Estimated travel time: 1hr 30min</directions>
+<dongcode>1</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/49/898949_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/49/898949_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://www.haeinsa.or.kr&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;www.haeinsa.or.kr&lt;/a&gt; (Korean)</homepage>
+<mapx>128.09875837601777</mapx>
+<mapy>35.80160478154792</mapy>
+<masterid>126175</masterid>
+<mlevel>7</mlevel>
+<modifiedtime>20150114131246</modifiedtime>
+<overview>Haeinsa Temple was founded during the third year of King Ae-Jang's reign (802), by two monks Suneung and Ijung.  The name &quot;Haein&quot; originates from the expression Haeinsammae of Hwaeomgyeong (Buddhist scripture), which means truly enlightened world of Buddha and our naturally undefiled mind.&lt;br&gt;&lt;br&gt;Along with the Tripitaka Koreana (National Treasure No.32) and Janggyeongpanjeon (National Treasure No. 52), 15 more public treasures and some 200 private treasures are enshrined at Haeinsa Temple, which has been appointed as a universal cultural heritage since December, 1995 for its many cultural properties and historical remains.  Iljumun, Daejeokgwangjeon and the Tripitaka Koreana are recognized as famous treasures.  Iljumun Gate was the first gate that every sattva must pass to become a Buddha and considered as a representative work of ancient architecture.  Daejeokgwangjeon, the grand sanctuary, and the three-story stone pagoda in the yard possess the majestic appearance of the one thousand-year-old temple.  Since the 23rd year of Goryeo Dynasty (year 1236), it took 16 years to finish the Tripitaka Koreana, the most famous national treasure of Haeinsa Temple, which was made as a wish to overcome the national crisis caused by Mongolia Invasion.  The printing blocks are 68cm wide, 24.5cm long, 3 cm thick with wood fixed at each end to maintain balance and lacquer was applied to prevent corrosion.  Silver magnolias growing near the South Sea and Geojae area were cut down, soaked in sea water for several years and then dried to make these printing blocks.  The blocks are a result of the king and his people's effort to repulse the Mongolian army with support from Buddha. The 81,340 blocks include 6,791 volumes.&lt;br&gt;&lt;br&gt;* More Attractions: Hapcheon 8 gyeong, Haeinsa Temple, Gayasan Mountain, Hongryudong Valley (Crimson Stream Village Valley), Namsanjeilbong Peak, Hambyeongnu Tower, Hwanggye Falls,  Hwangmae Mountain Mosanjae, Lake Hapcheon, Baek-ri Cherry Blossom Road</overview>
+<sigungucode>21</sigungucode>
+<tel>+82-55-934-3000, &lt;br&gt;+82-55-934-3140</tel>
+<title>Haeinsa Temple (Hapcheon) (해인사 (합천))</title>
+<zipcode>678-895</zipcode>
+</item>
+
+<item>
+<contentid>264238</contentid>
+<contenttypeid>76</contenttypeid>
+<expguide>
+</expguide>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-55-1330 &lt;br&gt; (Korean, English, Japanese, Chinese) &lt;br&gt; • For more info: +82-55-934-3000, &lt;br&gt;+82-55-934-3140</infocenter>
+<parking>Available</parking>
+<usetime>Summer Season: 08:30-18:00&lt;br&gt;Winter Season: 08:30-17:00</usetime>
+</item>
+
+<item>
+<contentid>264238</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>2</fldgubun>
+<infoname>Tour Course Information</infoname>
+<infotext>* Temple Stay Information&lt;br&gt;- Participation fees: Every Saturday (two-day one-night)&lt;br&gt;- &lt;a href=&quot;http://www.haeinsa.or.kr/home/bbs/write.php?bo_table=t_08&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;Online Application &lt;/a&gt; &amp;nbsp;(English)        &amp;nbsp;&lt;br&gt;&lt;br&gt;* Temple Stay Program is run on weekends only. &lt;a href=&quot;http://www.haeinsa.or.kr/home/bbs/board.php?bo_table=t_02&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;Program Schedule &lt;/a&gt; &lt;br&gt;* Program schedule is subject to change depending on circumstances.&amp;nbsp;&lt;br&gt;</infotext>
+<serialnum>0</serialnum>
+</item>
+<item>
+<contentid>264238</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Parking Fees</infoname>
+<infotext>Small &amp; Mid-sized cars: 4,000 won&lt;br&gt;Large vehicles: 6,000 won</infotext>
+<serialnum>1</serialnum>
+</item>
+<item>
+<contentid>264238</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Admission Fees</infoname>
+<infotext>Adults (ages over 19): 3,000 won / Group: 2,500 won&lt;br&gt;Youths (ages 13-18): 1,500 won / Group: 1,000 won&lt;br&gt;Children (ages 7-12): 700 won / Group: 500 won&lt;br&gt;* Group: 30 people or more</infotext>
+<serialnum>2</serialnum>
+</item>
+<item>
+<contentid>264238</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Facilities for the Handicapped</infoname>
+<infotext>Wheelchair ramp, wheelchair lift, restrooms</infotext>
+<serialnum>3</serialnum>
+</item>
+
+<item>
+<contentid>264238</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/89/1717489_image2_1.jpg</originimgurl>
+<serialnum>1717489_27</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/89/1717489_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264238</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/93/1717493_image2_1.jpg</originimgurl>
+<serialnum>1717493_26</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/93/1717493_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264238</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/99/1717499_image2_1.jpg</originimgurl>
+<serialnum>1717499_31</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/99/1717499_image3_1.jpg</smallimageurl>
+</item>
+
+</items>
+</body>
+</response>
+						

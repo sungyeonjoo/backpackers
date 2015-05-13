@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>763-43, Nokcha-ro, Boseong-eup, Boseong-gun, Jeollanam-do</addr1>
+<areacode>38</areacode>
+<cat1>A02</cat1>
+<cat2>A0203</cat2>
+<cat3>A02030500</cat3>
+<contentid>264293</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20030108185342</createdtime>
+<directions>[Bus]&lt;br&gt;From Seoul Central City Bus Terminal (Express Bus Terminal Station, Subway Line 3, 7 &amp; 9), take an express bus bound for Boseong Intercity Bus Terminal. &lt;br&gt;(2 departures per day / Time: 4 hrs 40 min)&lt;br&gt;From Boseong Terminal, take a local bus bound for Yulpo and get off at Daehan Dawon Bus Stop.</directions>
+<dongcode>7</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/85/1936485_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/85/1936485_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://english.boseong.go.kr/index.boseong&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt; boseong.go.kr &lt;/a&gt;&lt;br&gt; (Korean, English, Chinese, Japanese)&lt;br&gt;&lt;a href=&quot;http://www.daehantea.co.kr&quot; target=&quot;_blank&quot; class=&quot;Web&quot;&gt;www.daehantea.co.kr&lt;/a&gt; (Korean only)&lt;br&gt;&lt;a href=&quot;http://www.dhdawon.com&quot; target=&quot;_blank&quot; class=&quot;Web&quot;&gt;www.dhdawon.com&lt;/a&gt; (Korean only)</homepage>
+<mapx>127.0776486561051</mapx>
+<mapy>34.71764255942534</mapy>
+<masterid>127869</masterid>
+<mlevel>4</mlevel>
+<modifiedtime>20150423135615</modifiedtime>
+<overview>Daehan&amp;nbsp;Dawon Tourist Plantation is an area located in Boseong, and its main specialty is green tea which originated from the mountain valleys south of Boseong.  Boseong has been a tea plantation area since the days of the Japanese occupation, and with its long history comes large plantations, their traditions, and highly skilled workers.  The most famous of these is the Daehan Dawon Plantation.The site  has gained popularity as a film making destination after a huge success of the commercial for a telecommunication company.  It also host ‘Dahyangje Tea Festvial’ each year in May. &lt;br&gt;&lt;br&gt; The road leading to Daehan&amp;nbsp;Dawon Plantation is very beautiful, full of green tea fields and cedar trees, which has been &amp;nbsp;There are several country roads in Korea known for their beauty, and one of them is the Boseong Cedar Road.  Trees 20 meters in x_height are planted and lined evenly along both sides of the road.  About 300 meters down the road you can see a market selling local products. If you go further along the road past the market, you come to a small pond on the right.  Go around the pond, and you will come to the administrative office building, coffee shops and restaurants.  Pass these buildings and you will finally arrive at the Daehan Dawon Tea Plantation.  Go passed the buildings and on the left side you will see the cedar road again.  On the other side of the road, in the middle of the tea field, there are stairs where you can climb to a big tree at the top of a hill. You can see the whole tea plantation from here.</overview>
+<sigungucode>10</sigungucode>
+<tel>+82-61-852-4540, +82-2-511-3455</tel>
+<title>Daehan Dawon Tourist Tea Plantation (Boseong Green Tea Plantation) (보성녹차밭 대한다원)</title>
+<zipcode>546-804</zipcode>
+</item>
+
+<item>
+<contentid>264293</contentid>
+<contenttypeid>76</contenttypeid>
+<expguide>
+</expguide>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-2-1330 &lt;br&gt; (Korean, English, Japanese, Chinese) &lt;br&gt; • For more info: &lt;br&gt;- Daehan Dawon: &lt;br&gt;+82-61-852-4540 &lt;br&gt;- Seoul Office: &lt;br&gt;+82-2-511-3455</infocenter>
+<parking>Available &lt;br&gt;* Operating hours: 06:00-19:00</parking>
+<restdate>N/A (open all year round)</restdate>
+<usetime>Summer (Mar-Oct) 09:00-19:00 &lt;br&gt;Winter (Nov-Feb) 09:00-18:00&lt;br&gt;※ Last admission 20:00 (during winter at 19:00)</usetime>
+</item>
+
+<item>
+<contentid>264293</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Parking Fees</infoname>
+<infotext>Free</infotext>
+<serialnum>0</serialnum>
+</item>
+<item>
+<contentid>264293</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Admission Fees</infoname>
+<infotext>Adults:  4,000 won / Group: 3,000 won&lt;br&gt;Youths &amp; Children (ages 7-18) / Seniors ( ages 65 &amp; over): 3,000 won&lt;br&gt;&lt;br&gt;* Group: 20 people or more&lt;br&gt;* Infants ( ages 6 &amp; below) may enter free of charge.</infotext>
+<serialnum>1</serialnum>
+</item>
+
+<item>
+<contentid>264293</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/51/1924251_image2_1.jpg</originimgurl>
+<serialnum>1924251_14</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/51/1924251_image2_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264293</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/83/1936483_image2_1.jpg</originimgurl>
+<serialnum>1936483_9</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/83/1936483_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264293</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/86/1936486_image2_1.jpg</originimgurl>
+<serialnum>1936486_1</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/86/1936486_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264293</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/76/193876_image2_1.jpg</originimgurl>
+<serialnum>193876_13</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/76/193876_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264293</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/78/193878_image2_1.jpg</originimgurl>
+<serialnum>193878_10</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/78/193878_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264293</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/82/193882_image2_1.jpg</originimgurl>
+<serialnum>193882_12</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/82/193882_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264293</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/87/193887_image2_1.jpg</originimgurl>
+<serialnum>193887_11</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/87/193887_image3_1.jpg</smallimageurl>
+</item>
+
+</items>
+</body>
+</response>
+						

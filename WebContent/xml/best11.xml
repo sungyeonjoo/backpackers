@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>Sinpyeong-dong, Gyeongju-si, Gyeongsangbuk-do</addr1>
+<areacode>35</areacode>
+<cat1>A02</cat1>
+<cat2>A0202</cat2>
+<cat3>A02020200</cat3>
+<contentid>264264</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20030108182750</createdtime>
+<directions>Across from Gyeongju Intercity Bus Terminal, &lt;br&gt;Take Bus 10 or 18 and get off at Bomun Lake Resort (보문관광단지). &lt;br&gt;&lt;br&gt;[Taxi]&lt;br&gt;From Gyeongju Intercity / Express Bus Terminal or Gyeongju Station,&lt;br&gt;Take a taxi to Bomun Lake Resort (보문관광단지, 20-25min).&lt;br&gt;&lt;br&gt;</directions>
+<dongcode>35</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/46/179646_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/46/179646_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot; http://guide.gyeongju.go.kr/deploy/eng/index.html&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;guide.gyeongju.go.kr &lt;/a&gt; &lt;a class=&quot;web&quot;&gt;&lt;br&gt;&lt;/a&gt;(Korean, English,  Japanese, Chinese)&lt;br&gt;&lt;a href=&quot;http://www.ktd.co.kr/eng/Main.gtc?pageMode=eng&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;www.ktd.co.kr/ &lt;/a&gt; &lt;br&gt;(Korean, English, Japanese, Chinese)</homepage>
+<mapx>129.2867249417495</mapx>
+<mapy>35.842641552026635</mapy>
+<masterid>126230</masterid>
+<mlevel>7</mlevel>
+<modifiedtime>20130315095536</modifiedtime>
+<overview>Bomun Lake Resort is the international tourist district of Gyeongju.&lt;br&gt;This tourist district is formed featuring Bomunho Lake at its center, located 6km east of downtown Gyeongju.  The dimensions of the area is 19.38 square km, and it is designated as a spa and special tourist district.  It is a total tourist complex that opened in April 1979.  At the entrance the stream from Deokdongho Lake flows in, powering a water mill inside, and flows on to a 12m artificial waterfall.&lt;br&gt;&lt;br&gt;Within the Bomun Tourist Town are facilities traditionally designed architecture such as the tourist center used as international conference room, golf resort, shopping mall, and a tourist hotel. It contains many amusement facilities such as a ferry port, Yukbu Village, Seonjae Art Gallery, Bomun Outdoor Performance Hall, drive-in theater, and Gyeongju World.&lt;br&gt;&lt;br&gt;Every year from April to January the following year, traditional Korean music (Gugak) performances are held free of charge at Bomun Outdoor Performance Hall.  You can also enjoy the hot spring in the Bomun District. The high quality spring water maintains its temperature at 35.5 degrees.   &lt;br&gt;&lt;br&gt;Along the lake is a long walkway with many cherry trees. In April the whole walkway is covered with pink petals of cherry blossoms.  Viewing the beautiful scenery of this walk with pink petals dancing with the wind  make you smile gently.</overview>
+<sigungucode>2</sigungucode>
+<tel>+82-54-745-7601</tel>
+<title>Bomun Lake Resort (경주 보문관광단지)</title>
+<zipcode>780-290</zipcode>
+</item>
+
+<item>
+<contentid>264264</contentid>
+<contenttypeid>76</contenttypeid>
+<expguide>
+</expguide>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-2-1330 (Korean, English, Japanese, Chinese) &lt;br&gt;• For more info: +82-54-745-7601 (Korean)</infocenter>
+<parking>
+</parking>
+<restdate>Open all year around</restdate>
+<usetime>Open 24 hours</usetime>
+</item>
+
+<item>
+<contentid>264264</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/47/179647_image2_1.jpg</originimgurl>
+<serialnum>179647_1</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/47/179647_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264264</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/49/179649_image2_1.jpg</originimgurl>
+<serialnum>179649_2</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/49/179649_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264264</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/50/179650_image2_1.jpg</originimgurl>
+<serialnum>179650_3</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/50/179650_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264264</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/51/179651_image2_1.jpg</originimgurl>
+<serialnum>179651_4</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/51/179651_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264264</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/52/179652_image2_1.jpg</originimgurl>
+<serialnum>179652_5</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/52/179652_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264264</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/53/179653_image2_1.jpg</originimgurl>
+<serialnum>179653_6</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/53/179653_image3_1.jpg</smallimageurl>
+</item>
+
+</items>
+</body>
+</response>
+						

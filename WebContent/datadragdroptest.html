@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAgrj58PbXr2YriiRDqbnL1RSqrCjdkglBijPNIIYrqkVvD1R4QxRl47Yh2D_0C1l5KXQJGrbkSDvXFA" type="text/javascript"></script>
+   
+<title>drag</title>
+
+<!-- drag and drop 2.1,2.2-->
+   <link href="css/dragstyle.css" rel="stylesheet">
+
+</head>
+
+<body>
+ <!-- drag and drop 2.1 2.2 -->        
+           <div id="example-2-1">
+            <div class="column left first"  style="overflow:hidden; width:25%">
+            <p><input type="submit" class="input-button" id="btn-get" value="Get items" /></p>
+        
+      <li>DAY1</li>
+               <ul class="sortable-list">
+              
+                  <li class="sortable-item" id="A"></li>
+                  <li class="sortable-item" id="B"></li>
+                  <li class="sortable-item" id="C"></li>
+                  <li class="sortable-item" id="D"></li>
+                  <li class="sortable-item" id="E"></li>
+                  <li class="sortable-item" id="F"></li>
+                  <li class="sortable-item" id="G"></li>
+               </ul>
+   <div class="clearer">&nbsp;</div>
+
+         <!-- END: XHTML for example 2.1 -->
+
+      
+   <!-- BEGIN: XHTML for example 2.2 -->
+<br>
+         <div id="example-2-2" align="right">
+
+            <p><input type="submit" class="input-button" id="btn-save" value="Save items to trip-a" /></p>
+
+         </div>
+           <!-- END: XHTML for example 2.2 -->
+
+         </div>
+         </div>
+         
+         
+  <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+   <!-- Example JavaScript files -->
+   <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+   <script type="text/javascript" src="jquery-ui-1.8.custom.min.js"></script>
+   <script type="text/javascript" src="jquery.cookie.js"></script>
+   
+   <!-- function -->
+   <!-- Example jQuery code (JavaScript)  -->
+   <script type="text/javascript">
+   
+   $(document).ready(function(){
+   
+      // Get items
+      function getItems(exampleNr)
+      {
+         var columns = [];
+   
+         $(exampleNr + ' ul.sortable-list').each(function(){
+            columns.push($(this).sortable('toArray').join(','));            
+         });
+   
+         return columns.join('|');
+      }
+   
+    
+      
+      // Example 2.1: Get items
+      $('#example-2-1 .sortable-list').sortable({
+         connectWith: '#example-2-1 .sortable-list'
+      });
+   
+      $('#btn-get').click(function(){
+         alert(getItems('#example-2-1'));
+      });
+   
+   
+      // Example 2.2: Save items
+      $('#btn-save').click(function(){
+         $.cookie('cookie-a', getItems('#example-2-1'));
+   
+         alert('Items saved (' + $.cookie('cookie-a') + ')');
+      });
+   
+      
+   });
+
+   </script>
+
+
+
+<script>
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","http://api.visitkorea.or.kr/openapi/service/rest/KorService/detailCommon?ServiceKey=vs3Y%2Fm4qc9WmDzyaJyRtihhpYfhEAMtgaZHZPOt1quhUS27jSkmk%2FSIF7ZnAtfy6NqzC1Gvw7BiWxVbJgnQ%2Bvw%3D%3D&contentTypeId=32&contentId=143122&MobileOS=ETC&MobileApp=TourAPI3.0_Guide&defaultYN=Y",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.getElementById("A").innerHTML=xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+xmlhttp.open("GET","http://api.visitkorea.or.kr/openapi/service/rest/KorService/detailCommon?ServiceKey=vs3Y%2Fm4qc9WmDzyaJyRtihhpYfhEAMtgaZHZPOt1quhUS27jSkmk%2FSIF7ZnAtfy6NqzC1Gvw7BiWxVbJgnQ%2Bvw%3D%3D&contentTypeId=12&contentId=126535&MobileOS=ETC&MobileApp=TourAPI3.0_Guide&defaultYN=Y",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.getElementById("B").innerHTML=xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+xmlhttp.open("GET","http://api.visitkorea.or.kr/openapi/service/rest/KorService/detailCommon?ServiceKey=vs3Y%2Fm4qc9WmDzyaJyRtihhpYfhEAMtgaZHZPOt1quhUS27jSkmk%2FSIF7ZnAtfy6NqzC1Gvw7BiWxVbJgnQ%2Bvw%3D%3D&contentTypeId=12&contentId=126508&MobileOS=ETC&MobileApp=TourAPI3.0_Guide&defaultYN=Y",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.getElementById("C").innerHTML=xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+xmlhttp.open("GET","http://api.visitkorea.or.kr/openapi/service/rest/KorService/detailCommon?ServiceKey=vs3Y%2Fm4qc9WmDzyaJyRtihhpYfhEAMtgaZHZPOt1quhUS27jSkmk%2FSIF7ZnAtfy6NqzC1Gvw7BiWxVbJgnQ%2Bvw%3D%3D&contentTypeId=39&contentId=403053&MobileOS=ETC&MobileApp=TourAPI3.0_Guide&defaultYN=Y",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.getElementById("D").innerHTML=xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+xmlhttp.open("GET","http://api.visitkorea.or.kr/openapi/service/rest/KorService/detailCommon?ServiceKey=vs3Y%2Fm4qc9WmDzyaJyRtihhpYfhEAMtgaZHZPOt1quhUS27jSkmk%2FSIF7ZnAtfy6NqzC1Gvw7BiWxVbJgnQ%2Bvw%3D%3D&contentTypeId=12&contentId=264353&MobileOS=ETC&MobileApp=TourAPI3.0_Guide&defaultYN=Y",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.getElementById("E").innerHTML=xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+xmlhttp.open("GET","http://api.visitkorea.or.kr/openapi/service/rest/KorService/detailCommon?ServiceKey=vs3Y%2Fm4qc9WmDzyaJyRtihhpYfhEAMtgaZHZPOt1quhUS27jSkmk%2FSIF7ZnAtfy6NqzC1Gvw7BiWxVbJgnQ%2Bvw%3D%3D&contentTypeId=12&contentId=126534&MobileOS=ETC&MobileApp=TourAPI3.0_Guide&defaultYN=Y",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.getElementById("F").innerHTML=xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+xmlhttp.open("GET","http://api.visitkorea.or.kr/openapi/service/rest/KorService/detailCommon?ServiceKey=vs3Y%2Fm4qc9WmDzyaJyRtihhpYfhEAMtgaZHZPOt1quhUS27jSkmk%2FSIF7ZnAtfy6NqzC1Gvw7BiWxVbJgnQ%2Bvw%3D%3D&contentTypeId=32&contentId=142738&MobileOS=ETC&MobileApp=TourAPI3.0_Guide&defaultYN=Y",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.getElementById("G").innerHTML=xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+</script>
+
+</body>
+</html>

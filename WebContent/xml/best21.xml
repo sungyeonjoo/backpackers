@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>348, Namseonghyeon-ro, Hwayang-eup, Cheongdo-gun, Gyeongsangbuk-do</addr1>
+<areacode>35</areacode>
+<cat1>A02</cat1>
+<cat2>A0207</cat2>
+<cat3>A02070200</cat3>
+<contentid>700911</contentid>
+<contenttypeid>85</contenttypeid>
+<createdtime>20090226165556</createdtime>
+<dongcode>9</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/99/662699_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/99/662699_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://www.sossaum.or.kr/main.do&quot; target=&quot;_blank&quot;class=&quot;Web&quot;&gt;www.sossaum.or.kr/&lt;/a&gt; (Korean only)</homepage>
+<mapx>128.72361480317693</mapx>
+<mapy>35.68753186676151</mapy>
+<masterid>526648</masterid>
+<mlevel>5</mlevel>
+<modifiedtime>20140814150328</modifiedtime>
+<overview>&lt;b&gt;* The festival is postponed until further notice. &lt;/b&gt;&lt;br&gt;&lt;br&gt;The Cheongdo Bullfighting Festival celebrates the long tradition of bullfighting in the Gyeongsangbuk-do Province. Drawing over half a million visitors annually since its inception in 1999, the festival is the largest bullfighting championship in the country. In addition to the bullfighting championship, the festival offers a number of exciting events including performances, hands-on experience programs, and exhibitions of the history of bullfighting, local agriculture, cows, etc.</overview>
+<sigungucode>20</sigungucode>
+<tel>• 1330 Travel Hotline: +82-2-1330 (Korean, English, Japanese, Chinese) &lt;br&gt; • For more info: +82-54-370-7500, +82-54-370-6373 (Korean)</tel>
+<telname>Cheongdo-gun</telname>
+<title>Cheongdo Bullfighting Festival (청도 소싸움축제)</title>
+<zipcode>714-901</zipcode>
+</item>
+
+<item>
+<bookingplace>
+</bookingplace>
+<contentid>700911</contentid>
+<contenttypeid>85</contenttypeid>
+<discountinfofestival>
+</discountinfofestival>
+<eventenddate>20130421</eventenddate>
+<eventplace>Gyeongsangbuk-do Cheongdo-gun Sossaum (Bullfighting) Stadium</eventplace>
+<eventstartdate>20130417</eventstartdate>
+<placeinfo>Take a train to Cheongdo Station (청도역).&lt;br&gt;* Train schedule (Seoul Station to Cheongdo Station): 05:50-20:15, 20 trains daily&lt;br&gt;From Cheongdo Station, cross the street and go towards the bus stop.&lt;br&gt;Take a bus bound for Punggak (풍각).&lt;br&gt;Get off at Chilseong 3(sam)-geori (칠성3거리).</placeinfo>
+<playtime>
+</playtime>
+<program>&lt;b&gt;&lt;font color=&quot;red&quot;&gt;※ Postponed indefinitely.&lt;/font&gt;&lt;/b&gt;</program>
+<sponsor1>Cheongdo-gun</sponsor1>
+<sponsor1tel>• 1330 Travel Hotline: +82-2-1330 (Korean, English, Japanese, Chinese) &lt;br&gt; • For more info: +82-54-370-7500, +82-54-370-6373 (Korean)</sponsor1tel>
+<sponsor2tel>+82-54-370-7500, +82-54-370-6373  (Korean)</sponsor2tel>
+<subevent>
+</subevent>
+<usetimefestival>Free</usetimefestival>
+</item>
+
+<item>
+<contentid>700911</contentid>
+<contenttypeid>85</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Introduction</infoname>
+<infotext>&lt;b&gt;* The festival is postponed until further notice. &lt;/b&gt;&lt;br&gt;&lt;br&gt;The Cheongdo Bullfighting Festival celebrates the long tradition of bullfighting in the Gyeongsangbuk-do Province. Drawing over half a million visitors annually since its inception in 1999, the festival is the largest bullfighting championship in the country. In addition to the bullfighting championship, the festival offers a number of exciting events including performances, hands-on experience programs, and exhibitions of the history of bullfighting, local agriculture, cows, etc.</infotext>
+<serialnum>0</serialnum>
+</item>
+
+<item>
+<contentid>700911</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/89/662689_image2_1.jpg</originimgurl>
+<serialnum>662689_3</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/89/662689_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>700911</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/91/662691_image2_1.jpg</originimgurl>
+<serialnum>662691_2</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/91/662691_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>700911</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/93/662693_image2_1.jpg</originimgurl>
+<serialnum>662693_1</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/93/662693_image2_1.jpg</smallimageurl>
+</item>
+
+</items>
+</body>
+</response>
+						

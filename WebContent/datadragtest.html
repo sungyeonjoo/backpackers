@@ -1,0 +1,430 @@
+<!-- 
+<!DOCTYPE HTML>
+<html>
+<head>
+ -->
+<!-- 
+<script type="text/javascript">
+var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024);
+var msg;
+db.transaction(function (tx) {
+  tx.executeSql('CREATE TABLE IF NOT EXISTS LOGS (id unique, log)');
+  tx.executeSql('INSERT INTO LOGS (id, log) VALUES (1, "foobar")');
+  tx.executeSql('INSERT INTO LOGS (id, log) VALUES (2, "logmsg")');
+  tx.executeSql('INSERT INTO LOGS (id, log) VALUES (3, "msg")');
+  msg = '<p>Log message created and row inserted.</p>';
+  document.querySelector('#status').innerHTML =  msg;
+});
+
+db.transaction(function (tx) {
+  tx.executeSql('SELECT * FROM LOGS', [], function (tx, results) {
+   var len = results.rows.length, i;
+   msg = "<p>Found rows: " + len + "</p>";
+   document.querySelector('#status').innerHTML +=  msg;
+   for (i = 0; i < len; i++){
+     msg = "<p><b>" + results.rows.item(i).log + "</b></p>";
+     document.querySelector('#status').innerHTML +=  msg;
+   }
+ }, null);
+});
+</script>
+</head>
+<body>
+<div id="status" name="status">Status Message</div>
+</body>
+</html>
+ -->
+ 
+<!--  
+ <script>
+$(function() {
+	$.getJSON(
+		'/samples/jqtree/makejson.alns',
+		function(data) {
+			$('#tree1').tree({
+				dragAndDrop: true,
+				data: data
+			});
+		}
+	);
+( ... skipped ... )
+});
+</script>
+<script>
+ $json = getJsonData();
+
+return $json;
+
+function getJsonData()
+{
+	$idx = 0;
+	
+	$nodeId = 1;
+	
+	$DATA[$idx].label = "test01" +  " : " + $nodeId;
+	$DATA[$idx].id = $nodeId++;
+	
+	$DATA[$idx].children[0].label = "child01" +  " : " + $nodeId;
+	$DATA[$idx].children[0].id = $nodeId++;
+	
+	$DATA[$idx].children[1].label = "child02" +  " : " + $nodeId;
+	$DATA[$idx].children[1].id = $nodeId++;
+	
+	$idx++;
+	
+	$DATA[$idx].label = "test02" +  " : " + $nodeId;
+	$DATA[$idx].id = $nodeId++;
+	$DATA[$idx].children[0].label = "child01" +  " : " + $nodeId;
+	$DATA[$idx].children[0].id = $nodeId++;
+	$DATA[$idx].children[1].label = "child02" +  " : " + $nodeId;
+	$DATA[$idx].children[1].id = $nodeId++;
+	
+	$DATA[$idx].children[1].children[0].label = "grandchild01" +  " : " + $nodeId;
+	$DATA[$idx].children[1].children[0].id = $nodeId++;
+	$DATA[$idx].children[1].children[1].label = "grandchild02" +  " : " + $nodeId;
+	$DATA[$idx].children[1].children[1].id = $nodeId++;
+	$DATA[$idx].children[1].children[2].label = "grandchild03" +  " : " + $nodeId;
+	$DATA[$idx].children[1].children[2].id = $nodeId++;
+	
+	$json = Record.dom2json(@DATA);
+	
+	return $json;
+}
+</script>
+
+<script>
+	$('#tree1').bind(
+		'tree.click',
+		function(event) {
+			// The clicked node is 'event.node'
+			var node = event.node;
+			alert("label is " + node.name + ". id is " + node.id);
+		} 
+	);
+	
+	</script>
+	<script>	
+	$('#tree1').bind(
+		'tree.move',
+		function(event) {
+			console.log('moved_node', event.move_info.moved_node);
+			console.log('target_node', event.move_info.target_node);
+			console.log('position', event.move_info.position); // after inside
+			console.log('previous_parent', event.move_info.previous_parent);
+			
+			// inside is used only for the first child
+			// before is used when you chnage order of root node
+			// other is after
+			
+			var url = "/samples/jqtree/servercallback.alns";
+			
+			var movedNodeIdValue = event.move_info.moved_node.id;
+			var targetNodeIdValue = event.move_info.target_node.id;
+			var positionValue = event.move_info.position;
+			var previousParentIdValue = event.move_info.previous_parent.id;
+			
+			$.ajax({
+				type: 'POST',
+				url: url,
+				data: {
+					cmd: "move",
+					movedNodeId: movedNodeIdValue,
+					targetNodeId: targetNodeIdValue,
+					position: positionValue,
+					previousParentId: previousParentIdValue,
+				},
+				dataType: 'html',
+				success: function(data) {
+					
+				},
+				error:function() {
+					alert('Error occur');
+				}
+			});
+	    }
+	);
+	
+	</script>
+	<script>
+	if($IN.cmd == "move"){
+	if($IN.position == "after"){
+		JqTree.moveAfter($movedNodeId, $targetNodeId, $previousParentId);
+	}else if($IN.position == "inside"){
+		JqTree.moveInside($movedNodeId, $targetNodeId, $previousParentId);
+	}else if($IN.position == "before"){
+		JqTree.moveBefore($movedNodeId, $targetNodeId, $previousParentId);
+	}
+}
+
+return 0;
+}
+</script>	
+	
+ -->
+ 
+ <!-- 
+  <!DOCTYPE html>
+<html>
+  <head>    
+    <script type="text/JavaScript">
+    
+      var db;
+      function createDB(){
+        db = window.openDatabase("myDB","1.0", "테스트용DB", 1024*1024);
+      }
+      
+      function createTable(){
+        db.transaction(function(tx){
+          tx.executeSql("create table Test(id,name)");
+        });
+      }
+      
+      function insertData(){
+        db.transaction(function(tx){
+          tx.executeSql("insert into Test values(?,?)",[txtID.value,txtName.value]);
+        });
+      }
+      
+      function selectData(){
+        db.transaction(function(tx){
+          tx.executeSql("select * from context",[],
+            
+            function(tx,result){            
+              for(var i = 0; i < result.rows.length; i++){
+                var row = result.rows.item(i);
+                document.getElementById('table1').innerHTML +=  "<tr><td>" + row['id'] + "</td><td>" + row['name'] + "</td></tr>";
+              }            
+                                   
+            });
+            
+        });
+      }
+            
+    </script>
+  </head>
+  
+  <body> 
+  
+    <button onclick="createDB()">DB 생성</button>
+    <br>        
+    <button onclick="createTable()">테이블생성</button>    
+    <br>  
+    ID: <input type="text" id="txtID"> , NAME: <input type="text" id="txtName">
+    <button onclick="insertData()">데이터 입력</button>
+    <br>    
+    <button onclick="selectData()">데이타 조회</button>    
+    <br>
+    <table id="table1"></table>
+  </body>
+</html>
+
+ -->
+ 
+<!-- 
+<html>
+
+<head>
+
+ 
+
+<script language="JavaScript">
+
+ 
+
+var cn = new ActiveXObject("mysql.Connection");
+
+if (typeof(cn)=="undefined" || cn==null) 
+
+alert("Unable to create the connection object!");
+
+else
+
+ alert("Connection object was successfully created!");
+
+ 
+
+var strConn = "Database=backpackers.content";
+
+function getdata(){
+
+ cn.Open(strConn);
+
+ var rs = new ActiveXObject("mysql.Recordset");
+
+ var SQL = "SELECT from conent";
+
+ rs.Open(SQL, cn);
+
+ alert(rs(0));
+
+ rs.Close();
+
+ cn.Close();
+
+}
+</script>
+
+
+
+</head>
+
+<body>
+
+ 
+
+<input type="button" value="Get data"
+
+onclick="getdata()">
+
+</body>
+
+</html>
+ -->
+ <!--  
+<!DOCTYPE HTML>
+<html>
+<head>
+ </head>
+ 
+ <body>
+ <script type="text/javascript" src="dragdata.js"></script>
+
+  <form role="form" action="drag.jsp" method="GET">
+                            <input type="button" value="Get data" onclick="getdata()">
+
+                        </form>
+ </body>
+  </html>
+ -->
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAgrj58PbXr2YriiRDqbnL1RSqrCjdkglBijPNIIYrqkVvD1R4QxRl47Yh2D_0C1l5KXQJGrbkSDvXFA" type="text/javascript"></script>
+   
+<title>drag</title>
+<!-- drag and drop 2.1,2.2-->
+   <link href="css/dragstyle.css" rel="stylesheet">
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+ <!-- drag and drop 2.1 2.2 -->        
+           <div id="example-2-1">
+            <div class="column left first"  style="overflow:hidden; width:25%">
+            <p><input type="submit" class="input-button" id="btn-get" value="Get items" /></p>
+        
+      <li>DAY1</li>
+               <ul class="sortable-list">
+               
+                  <li class="sortable-item" id="A">TRIP A</li>
+                  <li class="sortable-item" id="B">TRIP B</li>
+                   <li class="sortable-item" id="C">TRIP C</li>
+                  <li class="sortable-item" id="D">TRIP D</li>
+                  <li class="sortable-item" id="E">TRIP E</li>
+                  <li class="sortable-item" id="F">TRIP F</li>
+                  <li class="sortable-item" id="F">TRIP G</li>
+               </ul>
+   <div class="clearer">&nbsp;</div>
+
+         <!-- END: XHTML for example 2.1 -->
+
+      
+   <!-- BEGIN: XHTML for example 2.2 -->
+<br>
+         <div id="example-2-2" align="right">
+
+            <p><input type="submit" class="input-button" id="btn-save" value="Save items to trip-a" /></p>
+
+         </div>
+           <!-- END: XHTML for example 2.2 -->
+
+         </div>
+         </div>
+         
+         
+   <!-- function -->
+   <!-- Example jQuery code (JavaScript)  -->
+   <script type="text/javascript">
+   
+   $(document).ready(function(){
+   
+      // Get items
+      function getItems(exampleNr)
+      {
+         var columns = [];
+   
+         $(exampleNr + ' ul.sortable-list').each(function(){
+            columns.push($(this).sortable('toArray').join(','));            
+         });
+   
+         return columns.join('|');
+      }
+   
+    
+      
+      // Example 2.1: Get items
+      $('#example-2-1 .sortable-list').sortable({
+         connectWith: '#example-2-1 .sortable-list'
+      });
+   
+      $('#btn-get').click(function(){
+         alert(getItems('#example-2-1'));
+      });
+   
+   
+      // Example 2.2: Save items
+      $('#btn-save').click(function(){
+         $.cookie('cookie-a', getItems('#example-2-1'));
+   
+         alert('Items saved (' + $.cookie('cookie-a') + ')');
+      });
+   
+      
+   });
+
+   </script>
+
+
+
+
+<script>
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","http://api.visitkorea.or.kr/openapi/service/rest/KorService/locationBasedList?ServiceKey=vs3Y%2Fm4qc9WmDzyaJyRtihhpYfhEAMtgaZHZPOt1quhUS27jSkmk%2FSIF7ZnAtfy6NqzC1Gvw7BiWxVbJgnQ%2Bvw%3D%3D&MobileOS=ETC&MobileApp=TourAPI3.0_Guide&mapX=127.0570752&mapY=37.505072&radius=20000&pageNo=1&numOfRows=20",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.write("<table><tr><th>title</th></tr>");
+var x=xmlDoc.getElementsByTagName("item");
+for (i=0;i<x.length;i++)
+{ 
+document.write("<tr><td>");
+document.write(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+document.write("</td></tr>");
+}
+document.write("</table>");
+</script>
+
+
+</body>
+</html>

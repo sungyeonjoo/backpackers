@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>232, Gichamaeul-ro, Ogok-myeon, Gokseong-gun, Jeollanam-do</addr1>
+<areacode>38</areacode>
+<cat1>A02</cat1>
+<cat2>A0203</cat2>
+<cat3>A02030400</cat3>
+<contentid>814105</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20091005160533</createdtime>
+<directions>* Take a bus for Gwangju Gwangcheon Terminal at Central City Express Bus Terminal (from 00:15 to 6:20 at 15 minute intervals and the journey takes 3 hours and 40 minutes.)  &lt;br&gt;&lt;br&gt;* Take a nonstop bus for Gurye at Gwangju Gwangcheon Terminal and get off at Gokseong-eup bus terminal (The bus runs from 06:20 to 20:35 at 15 minute intervals and the journey takes 1 hour and 10 minutes.) &lt;br&gt;* It takes 5-10 minutes by taxi and 20-30 minutes on foot from Gokseong-eup Bus Terminal to the Rail Bike station.</directions>
+<dongcode>7</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/62/758362_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/62/758362_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://gstrain.korailtours.com/&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;gstrain.korailtours.com&lt;/a&gt; (Korean only)</homepage>
+<mapx>127.30823091567107</mapx>
+<mapy>35.27798340493411</mapy>
+<masterid>128578</masterid>
+<mlevel>6</mlevel>
+<modifiedtime>20150427162200</modifiedtime>
+<overview>&lt;b&gt;[Steam Engine Train]&lt;/b&gt;&lt;br&gt;A steam engine train was built to be an exact replica as the one that used to run in the region. The train runs 10km between the old Gokseong Station (Seomjingang River Train Village) and Gajeong Station. Passengers can enjoy the scenic view of lush greenery along the Seomjingang River and flowers alongside the roads at springtime. &lt;br&gt;&lt;br&gt;* The train runs 3 times a day on weekdays and 5 times a day on weekends and holidays. (3 times during winter) (The number of train rides per day is subject to change)&lt;br&gt;* Ticketing: &lt;a href=&quot;http://gstrain.korailtours.com/GSindex.asp?BIG_CA=TRAIN&amp;MID_CA=REV&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;Online reservation&lt;/a&gt; and ticketing on the site &lt;br&gt;&lt;br&gt;&lt;b&gt;[Rail Bike]&lt;/b&gt;&lt;br&gt;1) Seomjingang River Rail Bike &lt;br&gt;The rail bike runs alongside the Seomjingang River from Chimgok Station to Gajeong Station. &lt;br&gt;* &lt;a href=&quot;http://gstrain.korailtours.com/GSindex.asp?BIG_CA=RAILBIKE&amp;MID_CA=REV&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;Online reservation&lt;/a&gt; available&lt;br&gt;2) Train Village Rail Bike &lt;br&gt;Circular rail bike runs inside Seomjingang River Train Village &lt;br&gt;* Bike rides available in the order of ticketing at the site</overview>
+<sigungucode>3</sigungucode>
+<tel>+82-61-362-7717</tel>
+<title>Steam Engine Train and Rail Bike along Seomjingang River (From Old Gokseong Station to Gajeong Station) (섬진강기차마을)</title>
+<zipcode>516-821</zipcode>
+</item>
+<item>
+<accomcount>Steam Engine Train: 340 people / Rail Bike: 300 people</accomcount>
+<contentid>814105</contentid>
+<contenttypeid>76</contenttypeid>
+<expguide>
+</expguide>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-2-1330&lt;br&gt;(Korean, English, Japanese, Chinese)&lt;br&gt;• For more info: +82-61-362-7717 (Korean)</infocenter>
+<parking>Available</parking>
+<restdate>Open 365 days a year</restdate>
+<usetime>9:00am - 6:00pm (Last admission 5:30pm)</usetime>
+</item>
+<item>
+<contentid>814105</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Activity Fees</infoname>
+<infotext>&lt;b&gt;&lt;br&gt;[Steam Engine Train] &lt;/b&gt;&lt;br&gt;* Round trip&lt;br&gt;Adults 6,000 won for reserved seat tickets / 5,000 won for standing room tickets&lt;br&gt;Children &amp; Seniors 5500 won for reserved seat tickets / 4500 won for standing room tickets&lt;br&gt;* One way trip &lt;br&gt;Audlts 4000 won for reserved seat tickets / 3500 won for standing room tickets&lt;br&gt;Children &amp; Seniors 3500 won for reserved seat tickets / 3000 won for standing room tickets&lt;br&gt;&lt;br&gt;&lt;b&gt;[Rail Bike]&lt;br&gt;&lt;/b&gt;Seomjingang River - Gajeong Station 15,000 won (2 people) / 22,000 won (4 people)&lt;br&gt;Circle line 7,000 won (4 people)&lt;br&gt;&lt;br&gt;* Children - ages 4-12 / Seniors - ages over 65&lt;br&gt;* 50% discounts for disabled guests / 10% discounts for group (more than 30 people)&lt;br&gt;&amp;nbsp;</infotext>
+<serialnum>0</serialnum>
+</item>
+<item>
+<contentid>814105</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Available Facilities</infoname>
+<infotext>Steam Engine Train, Rail Bike, training center, pension, etc.</infotext>
+<serialnum>1</serialnum>
+</item>
+<item>
+<contentid>814105</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/63/758363_image2_1.jpg</originimgurl>
+<serialnum>758363_4</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/63/758363_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>814105</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/64/758364_image2_1.jpg</originimgurl>
+<serialnum>758364_3</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/64/758364_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>814105</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/65/758365_image2_1.jpg</originimgurl>
+<serialnum>758365_2</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/65/758365_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>814105</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/66/758366_image2_1.jpg</originimgurl>
+<serialnum>758366_1</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/66/758366_image3_1.jpg</smallimageurl>
+</item>
+</items>
+</body>
+</response>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>1737-1, Yeonpyeong-ri, Udo-myeon, Jeju-si, Jeju-do</addr1>
+<areacode>39</areacode>
+<cat1>A03</cat1>
+<cat2>A0302</cat2>
+<cat3>A03022700</cat3>
+<contentid>1930268</contentid>
+<contenttypeid>75</contenttypeid>
+<createdtime>20140630152953</createdtime>
+<dongcode>40</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/05/657005_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/05/657005_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://www.jejuolle.org&quot; target=&quot;_blank&quot; title=&quot;new window popup&quot; class=&quot;web&quot;&gt;www.jejuolle.org&lt;/a&gt;&lt;br&gt;(Korean, English, Japanese, Chinese)&lt;br&gt;&lt;a href=&quot;http://www.jejutour.go.kr&quot; target=&quot;_blank&quot; title=&quot;new window popup&quot; class=&quot;web&quot;&gt;http://www.jejutour.go.kr&lt;/a&gt; &lt;br&gt;(Korean, English, Japanese, Chinese)</homepage>
+<mapx>126.95164169192297</mapx>
+<mapy>33.49318518433521</mapy>
+<masterid>1841003</masterid>
+<mlevel>6</mlevel>
+<modifiedtime>20150324172739</modifiedtime>
+<overview>Shaped like a cow lying down, Udo Island with its clean green fields, stonewalls, and striking lighthouse presents some of the best scenery in the Jeju area.  Udo is the largest of the 62 islands that surround Jeju, and with seas that are the color of indigo throughout the year, this is a walking course where you can feast your eyes on beautiful views. &lt;br&gt;&lt;br&gt;This course takes you past Soemultong Hill and along the dried embankments of fields of barley and rye.The original walking path leading up to  Udobong Peak goes up to the observatory directly but the Olle course follows the trail beside  Udo Reservoir to get to the peak. This road has a view of the expansive fields covered with crimson clovers and red poppies.</overview>
+<sigungucode>4</sigungucode>
+<tel>+82-64-762-2190</tel>
+<title>Jeju Olle Trail - Route 1-1 (Udo Island Olle) (제주올레 1-1코스 (우도올레))</title>
+<zipcode>695-980</zipcode>
+</item>
+
+<item>
+<contentid>1930268</contentid>
+<contenttypeid>75</contenttypeid>
+<infocenterleports>• 1330 Travel Hotline: +82-2-1330 &lt;br&gt; (Korean, English, Japanese, Chinese) &lt;br&gt; • For more info: +82-64-762-2190</infocenterleports>
+<reservation>* Reservation: Jeju Olle: +82-64-762-2190</reservation>
+<usetimeleports>Recommended hiking time: from 9:00 to around 18:00 in summer and 17:00 in winter</usetimeleports>
+</item>
+
+<item>
+<contentid>1930268</contentid>
+<contenttypeid>75</contenttypeid>
+<fldgubun>1</fldgubun>
+<infoname>Tourism Course</infoname>
+<infotext>＊Course difficulty: Easy&lt;br&gt;There are no difficult sections throughout the course, but hikers should watch out for cars and bikes on the road.&lt;br&gt;&lt;br&gt;* Course route (Total: 11.3km, 4~5 hour)&lt;br&gt;Cheonjinhang Port → Hongjodangoe (white coral) Habin Beach (2km) → Haumokdonghang Port (3.2km) → Entrance of Sanmultong (4.2km) → Papyeong Yun Clan Park (5.5km) → Hagosu-dong Beach (6.4m) → Hasugodong Beach (6.4km) → Yeonjabo (7.8km) → Udobong Peak (8.8km) → Cheonjinhang Port (11.3km) </infotext>
+<serialnum>0</serialnum>
+</item>
+<item>
+<contentid>1930268</contentid>
+<contenttypeid>75</contenttypeid>
+<fldgubun>1</fldgubun>
+<infoname>Point Information</infoname>
+<infotext>[Jeju Olle  Passport Stamp Stations]&lt;br&gt;Starting point: Cheonjinhang port and Haumokdonghang port&lt;br&gt;Middle point: Hagosudong Beach&lt;br&gt;Ending point: Cheonjinhang port and Haumokdonghang port</infotext>
+<serialnum>1</serialnum>
+</item>
+<item>
+<contentid>1930268</contentid>
+<contenttypeid>75</contenttypeid>
+<fldgubun>2</fldgubun>
+<infoname>Reference Notes</infoname>
+<infotext>※ Refer to the website. (Click &lt;a href=&quot;http://www.jejuolle.org/?mid=25#&quot; target=&quot;_blank&quot; title=&quot;new window popup&quot; class=&quot;web&quot;&gt;here&lt;/a&gt;!)&lt;br&gt;* Emergency contact number (Jeju Olle Call Center: +82-64-762-2190 / Police +82-112) must be kept at all times.</infotext>
+<serialnum>2</serialnum>
+</item>
+
+<item>
+<contentid>1930268</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/03/656903_image2_1.jpg</originimgurl>
+<serialnum>656903_2</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/03/656903_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>1930268</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/95/656995_image2_1.jpg</originimgurl>
+<serialnum>656995_1</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/95/656995_image3_1.jpg</smallimageurl>
+</item>
+
+</items>
+</body>
+</response>
+						

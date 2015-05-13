@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- 
+  <style>img{ height: 100px; float: left; }</style>
+   -->
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+  <div id="trans">
+
+</div>
+<script>
+$.getJSON("http://api.openapi.io/traffic/appleTree/v1/0/Path/PathSearch_Exit.asp?jsoncallback=?",
+  {x-waple-authorization: "MjM4NS0xNDI2NjgwMjg0MzI4LTJiMTAxYTgyLWI2ODgtNDYwYy05MDFhLTgyYjY4OGQ2MGNjMw",
+     changeCount: "5",
+     optCount: "5",
+     resultCount: "10",
+     SY:"37.6134436427887",
+      EX:"127.126936754911",
+     EY:"37.5004198786564",
+     OPT:"0",
+     SX:"126.926493082645",
+     radius:"700:2000",  
+     SearchType:"0",
+     weightTime:"10:5:5:10:10:5",
+      svcid:"f78480bc1c06734607e4c7107d0642f3"
+                   
+  },
+  function(data) {
+    $.each(data.trans, function(i,tran){
+      $('body').attr("src", tran.media.m).appendTo("#trans");
+      $('body').append('<h1>'+key+':'+value+'</h1>');
+      if ( i == 3 ) return false;
+    });
+  });</script>
+
+
+     <!--  
+        <meta charset="utf-8"/>
+        <script src="https://raw.github.com/douglascrockford/JSON-js/master/json2.js"></script>
+        <script>
+            function login(){
+                var userid = document.getElementById('userid').value;
+                var pwd = document.getElementById('pwd').value;
+                var xmlhttp;
+                if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+                    xmlhttp = new XMLHttpRequest();
+                } else {// code for IE6, IE5
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                xmlhttp.onreadystatechange = function() {
+                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    var resp = JSON.parse(xmlhttp.responseText);
+                    var str = '<ul>';
+                    for(name in resp){
+                        str += '<li>'+name+' : '+resp[name]+'</li>';
+                    }
+                    document.getElementById("list").innerHTML = str;
+                    }
+                }
+                var userObj = new Object();
+                userObj.userid = userid;
+                userObj.pwd = pwd;
+                xmlhttp.open("GET", './json.php?data='+JSON.stringify(userObj), true);
+                xmlhttp.send();
+                return false;
+            }
+        </script> 
+    </head>
+    <body>
+        <form>
+            <input type="text" id="userid" />
+            <input type="text" id="pwd" />
+            <input type="button" onclick="login()" value="조회" />
+        </form>   
+        <div id="list">
+             
+        </div>
+    </body>
+</html>
+ -->
+<!-- <style type="text/css">
+
+body{
+margin-top:5px;
+margin-left:5px;
+background :#000;
+}
+#searchForm{
+margin-bottom:8px;}
+#searchQ{
+height:20px;
+font-family:Gulim,Dotum,Arial;
+
+margin-bottom:8px;}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<script>
+$(document).ready(function(){
+   $.getJSON('http://api.openapi.io/traffic/appleTree/v1/0/Path/PathSearch_Exit.asp',function(data){
+      $.each(data, function(changeCount ,resultCount ){
+         $('body').append('<h1>'+key+':'+value+'</h1>');
+         
+      });
+   });
+}
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","http://api.openapi.io/traffic/appleTree/v1/0/Path/PathSearch_Exit.asp?ServiceKey=MjM4NS0xNDI2NjgwMjg0MzI4LTJiMTAxYTgyLWI2ODgtNDYwYy05MDFhLTgyYjY4OGQ2MGNjMw==&changeCount=5&optCount=5&resultCount=10&SY=37.6134436427887&EX=127.126936754911&EY=37.5004198786564&OPT=0&encoding=utf-8&SX=126.926493082645&output=json&echo=yes&radius=700:2000&SearchType=0&weightTime=10:5:5:10:10:5&svcid=f78480bc1c06734607e4c7107d0642f3",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.write("<table><tr><th>title</th><th>firstimage</th><th>mapx</th><th>mapy</th></tr>");
+var x=xmlDoc.getElementsByTagName("item");
+for (i=0;i<x.length;i++)
+{ 
+document.write("<tr><td>");
+document.write(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+document.write("</td><td>");
+document.write("<img src='");
+document.write(x[i].getElementsByTagName("firstimage")[0].childNodes[0].nodeValue);
+document.write("'/>");
+document.write("</td><td>");
+document.write(x[i].getElementsByTagName("mapx")[0].childNodes[0].nodeValue);
+document.write("</td><td>");
+document.write(x[i].getElementsByTagName("mapy")[0].childNodes[0].nodeValue);
+document.write("</td></tr>");
+}
+document.write("</table>");
+</script>
+
+ -->
+
+</body>
+</html>

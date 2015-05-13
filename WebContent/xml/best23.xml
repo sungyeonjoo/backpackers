@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>102, Wonhwa-ro, Gyeongju-si, Gyeongsangbuk-do</addr1>
+<areacode>35</areacode>
+<cat1>A02</cat1>
+<cat2>A0201</cat2>
+<cat3>A02010700</cat3>
+<contentid>264367</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20090929110654</createdtime>
+<directions>&lt;b&gt;Seoul to Gyeongju&lt;/b&gt;&lt;br&gt;&lt;br&gt;[Train]&lt;br&gt;From Seoul Station, take a train to Singyeongju station. &lt;br&gt;(Express KTX Line: operates 20 times a day / Travel Time: 2 hours)&lt;br&gt;* Operating hours changes on week and weekend.&lt;br&gt;&lt;br&gt;-OR-&lt;br&gt;&lt;br&gt;From Seoul Station, take a train to Gyeongju Station.&lt;br&gt;(KTX - Mugunghwa Line: operates 18 times a day, stops at Dongdaegu Station / Travel Time: 3 hours)&lt;br&gt;&lt;br&gt;[Bus]&lt;br&gt;From Dong Seoul Bus Terminal, take an intercity bus bound for Gyeongju Intercity Bus Terminal.&lt;br&gt;(Operates 25 times a day / Travel Time: 4 hours)&lt;br&gt;&lt;br&gt;Dong Seoul Bus Terminal: +82-1688-5979&lt;br&gt;Gyeongju Intercity Bus Terminal Service Center +82-1666-5599 / Office: +82-54-772-2377&lt;br&gt;Gyeongju Intercity Bus Terminal +82-54-772-2377 &lt;br&gt;Gyeongju Express Bus Terminal +82-54-741-4000&lt;br&gt;Korail Customer Service: +82-1544-7788 / English service: +82-1599-7777&lt;br&gt;&lt;br&gt;&lt;b&gt;Gyeongju to Cheonmachong Tomb&lt;/b&gt;&lt;br&gt;&lt;br&gt;From Singyeongju Statation, take Bus No. 50, 51, or 70.&lt;br&gt;- Get off at Jungang Market Bus Stop and transfer to Bus No. 600.&lt;br&gt;- Get off at Anapji Entrance Bus Stop. (Total travel time: 50 min)&lt;br&gt; From Gyeongju Intercity Bus Terminal or Gyeongju Station, take bus No. 600 (Bus stop: across the street from the bus terminal / Across the street on the left-hand side from the train station).&lt;br&gt;- Get off at Anapji Entrance Bus Stop (Travel time: 20 min/11 min)</directions>
+<dongcode>43</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/52/688652_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/52/688652_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://eguide.gj.go.kr/01_travel/ht_wolseong.jsp &quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;eguide.gj.go.kr &lt;/a&gt;&lt;br&gt; (Korean, English, Japanese, Chinese)</homepage>
+<mapx>129.22837471041302</mapx>
+<mapy>35.83520239963239</mapy>
+<masterid>128526</masterid>
+<mlevel>7</mlevel>
+<modifiedtime>20150312095919</modifiedtime>
+<overview>According to the historical records of ‘Samguk-sagi,’ Anapji Pond was built during the 14th year of King Munmu (in power 661-681 AD) of the Silla Kingdom (57 BC-935 AD). Small mountains were created inside the palace walls, beautiful flowers were planted, and rare animals were brought in to create an exquisitely exotic garden fit for royalty. The pond was originally built in Wolseung Fortress (erected in 101 AD during the Silla period), but the fortress was destroyed and now lies in ruins. &lt;br&gt;&lt;br&gt;In 1974, an excavation project revealed large spherical shapes (measuring 200 meters in diameter and 180 meters in x_height) which indicated that 3 islands had been located in the pond. Thanks to these important findings and existing historical records, Anapji Pond has been restored to nearly its former glory. &lt;br&gt;&lt;br&gt;&lt;b&gt;Imhae jeonji&lt;/b&gt;&lt;br&gt; &lt;br&gt;As one of the detached palaces of the Silla royal family’s main palace, this structure was used as the crowned prince’s palace. Imhaejeon is historically the most important building on the property and records often refer to the whole area as ‘Imhaejin.’ &lt;br&gt;&lt;br&gt;An excavation resulted in the discovery of several buildings: Hoerang (corridor area), Anapji Pond, and five towers in the western part of the area. Some sites have been restored while others have been left in their natural state with only the cornerstones poking out from beneath the ground.</overview>
+<sigungucode>2</sigungucode>
+<tel>+82-54-772-4041</tel>
+<title>Gyeongju Donggung Palace and Wolji Pond (경주 동궁과 월지, 안압지)</title>
+<zipcode>780-150</zipcode>
+</item>
+
+<item>
+<contentid>264367</contentid>
+<contenttypeid>76</contenttypeid>
+<expguide>
+</expguide>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-2-1330 (Korean, English, Japanese, Chinese) &lt;br&gt;• For more info: +82-54-772-4041 (Korean)</infocenter>
+<parking>10 parking spaces</parking>
+<usetime>09:00-22:00</usetime>
+</item>
+
+<item>
+<contentid>264367</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Admission Fees</infoname>
+<infotext>[Individuals] &lt;br&gt;Adults: 2,000 won&lt;br&gt;Teens: 1,200 won &lt;br&gt;Children: 600 won &lt;br&gt;&lt;br&gt;[Groups (+30)] &lt;br&gt;Adults: 1,600 won&lt;br&gt;Youths: 1,000 won&lt;br&gt;Children: 500 won&lt;br&gt;&lt;br&gt;[Day Pass] &lt;br&gt;Entry to 6 sites:Daereungwon Ancient Tomb, Donggung Palace and Wolji Pond (Anapji Pond), Poseokjeong Pavilion Site, Five Royal Tombs, Tomb of Kim Yu-sin, Tomb of King Muyeol&lt;br&gt; &lt;br&gt;Individual: Adults 8,000 won/ Youths 4,800 won/ Children 2,800 won &lt;br&gt;Group: Adults 6,400 won/ Youths 4,000 won/ Children 2,200 won &lt;br&gt; &lt;br&gt;Entry to 2 sites:Daereungwon Ancient Tomb, Donggung Palace and Wolji Pond (Anapji Pond)&lt;br&gt;&lt;br&gt;Individual: Adults 4,000 won/ Youths 2,400 won/ Children 1,200 won &lt;br&gt;Group: Adults 3,200 won/ Youths 2,000 won/ Children 1,000 won &lt;br&gt;&lt;br&gt;* Note &lt;br&gt;&lt;br&gt;- The ticket is available at Donggung Palace and Wolji Pond (Anapji Pond), Poseokjeong Pavilion Site, Five Royal Tombs, Tomb of Kim Yu-sin, Tomb of King Muyeol.&lt;br&gt;- The ticket remains valid for 3 days.&lt;br&gt;&amp;nbsp;&amp;nbsp;(* Please be advised that even visiting one place with the ticket will make the ticket non-refundable) &lt;br&gt;- One ticket can be issued regardless of the number of visitors.</infotext>
+<serialnum>0</serialnum>
+</item>
+<item>
+<contentid>264367</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Facilities for the Handicapped</infoname>
+<infotext>Wheelchair free rental service, restrooms, wheelchair ramp</infotext>
+<serialnum>1</serialnum>
+</item>
+
+<item>
+<contentid>264367</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/99/1032699_image2_1.jpg</originimgurl>
+<serialnum>1032699_13</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/99/1032699_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264367</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/03/1032703_image2_1.jpg</originimgurl>
+<serialnum>1032703_14</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/03/1032703_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264367</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/19/179819_image2_1.jpg</originimgurl>
+<serialnum>179819_1</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/19/179819_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264367</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/20/179820_image2_1.jpg</originimgurl>
+<serialnum>179820_2</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/20/179820_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264367</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/21/179821_image2_1.jpg</originimgurl>
+<serialnum>179821_3</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/21/179821_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264367</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/22/179822_image2_1.jpg</originimgurl>
+<serialnum>179822_4</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/22/179822_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264367</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/23/179823_image2_1.jpg</originimgurl>
+<serialnum>179823_5</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/23/179823_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264367</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/50/688650_image2_1.jpg</originimgurl>
+<serialnum>688650_11</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/50/688650_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264367</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/52/688652_image2_1.jpg</originimgurl>
+<serialnum>688652_12</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/52/688652_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264367</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/83/978283_image2_1.jpg</originimgurl>
+<serialnum>978283_6</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/83/978283_image3_1.jpg</smallimageurl>
+</item>
+
+</items>
+</body>
+</response>
+						

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>284-12, Ilchul-ro, Seongsan-eup, Seogwipo-si, Jeju-do</addr1>
+<areacode>39</areacode>
+<cat1>A01</cat1>
+<cat2>A0101</cat2>
+<cat3>A01010400</cat3>
+<contentid>264207</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20030108180524</createdtime>
+<directions>At Jeju Intercity Bus Terminal, &lt;br&gt;Take a Direct Bus (Dongilju bus bound for Seongsan) and get off at Seongsalliipgu bus stop. (Travel time : 2 hrs)&lt;br&gt;&lt;br&gt;At Seogwipo Intercity Bus Terminal,&lt;br&gt;Take a Direct Bus (Dongilju bus bound for Seongsan) and get off at Seongsalliipgu bus stop (Travel time: 2 hr 30 min)&lt;br&gt;&lt;br&gt;At Seongsalliipgu bus stop, you will see  Seongsan Ilchulbong Peak. Walk to the peak (about 1km).&lt;br&gt;&amp;nbsp;</directions>
+<dongcode>16</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/95/1876195_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/95/1876195_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://english.tour2jeju.net/main/view.php?idno=50009&amp;menu_id=15&amp;cpage=1&amp;listcount=12&quot; target=&quot;_blank&quot; class=&quot;Web&quot;&gt;www.english.tour2jeju.net&lt;/a&gt; &lt;br&gt;(Korean, English, Chinese, Japanese, French, Spanish, German, Russian)</homepage>
+<mapx>126.94151560124689</mapx>
+<mapy>33.458111117448986</mapy>
+<masterid>126435</masterid>
+<mlevel>7</mlevel>
+<modifiedtime>20130115142952</modifiedtime>
+<overview>Seongsan Ilchulbong Peak rose from under the sea in a volcanic eruption over 100,000 years ago. Located on the eastern end of Jejudo Island, there is a huge crater at the top of Seongsan Ilchulbong Peak. The crater is about 600m in diameter and 90m high. With the 99 sharp rocks surrounding the crater, it looks like a gigantic crown. While the southeast and north sides are cliffs, the northwest side is a verdant grassy hill that is connected to the Seongsan Village. The ridge provides an ideal spot for walks and for horse riding as well. &lt;br&gt;The sunrise from the crater is magnificent. Also the Seongsan Ilchulbong Peak surrounded by bright yellow colored rapeseed flowers in the spring is truly a sight to behold.</overview>
+<sigungucode>3</sigungucode>
+<tel>+82-64-710-6655~6</tel>
+<title>Seongsan Ilchulbong Peak [UNESCO World Heritage] (성산일출봉)</title>
+<zipcode>699-903</zipcode>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-64-1330 (Korean, English, Japanese, Chinese) &lt;br&gt;• For more info: +82-64-710-7923, +82-64-783-0959 (Korean)</infocenter>
+<parking>269 spaces&lt;br&gt;* Parking Fees - 1,000 won ~ 2,000 won</parking>
+<restdate>Not allowed to enter during bad weather</restdate>
+<usetime>Winter : 1 hour before sunrise - 20:00&lt;br&gt;Summer : 1 hour before sunrise - 21:00</usetime>
+</item>
+
+
+
+<!-- 
+<item>
+<contentid>264207</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Facilities for the Handicapped</infoname>
+<infotext>Wheel chair free rental service, Disabled parking lot and toilet</infotext>
+<serialnum>0</serialnum>
+</item>
+<item>
+<contentid>264207</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Restrooms</infoname>
+<infotext>Available</infotext>
+<serialnum>1</serialnum>
+</item>
+ -->
+<item>
+<contentid>264207</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Admission Fees</infoname>
+<infotext>&amp;nbsp;&lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; x_width=&quot;540&quot;&gt;    &lt;tr&gt;        &lt;td x_width=&quot;159&quot;&gt;            &lt;b&gt;Classification&lt;/b&gt;&lt;br&gt;        &lt;/td&gt;        &lt;td x_width=&quot;159&quot;&gt;            &lt;b&gt;Adults&lt;/b&gt;&lt;br&gt;        &lt;/td&gt;        &lt;td x_width=&quot;159&quot;&gt;            &lt;b&gt;Youths&lt;/b&gt;&lt;br&gt;        &lt;/td&gt;        &lt;td x_width=&quot;141&quot;&gt;            &lt;b&gt;Children&lt;/b&gt;&lt;br&gt;        &lt;/td&gt;    &lt;/tr&gt;    &lt;tr&gt;        &lt;td x_width=&quot;159&quot;&gt;&lt;DIV align=center&gt;&lt;b&gt;Individual&lt;/b&gt;&lt;/DIV&gt;&lt;/td&gt;        &lt;td x_width=&quot;159&quot;&gt;            2,000 won&lt;br&gt;        &lt;/td&gt;        &lt;td x_width=&quot;159&quot;&gt;            1,000 won&lt;br&gt;        &lt;/td&gt;        &lt;td x_width=&quot;141&quot;&gt;            1,000 won&lt;br&gt;        &lt;/td&gt;    &lt;/tr&gt;    &lt;tr&gt;        &lt;td x_width=&quot;159&quot;&gt;            &lt;b&gt;Group (over 10)&lt;/b&gt;&lt;br&gt;        &lt;/td&gt;        &lt;td x_width=&quot;159&quot;&gt;            1,200 won&lt;br&gt;        &lt;/td&gt;        &lt;td x_width=&quot;159&quot;&gt;            600 won&lt;br&gt;        &lt;/td&gt;        &lt;td x_width=&quot;141&quot;&gt;            600 won&lt;br&gt;        &lt;/td&gt;    &lt;/tr&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;</infotext>
+<serialnum>2</serialnum>
+</item>
+
+
+<item>
+<contentid>264207</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/47/170847_image2_1.jpg</originimgurl>
+<serialnum>170847_1</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/47/170847_image3_1.jpg</smallimageurl>
+</item>
+<!-- 
+<item>
+<contentid>264207</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/60/170860_image2_1.jpg</originimgurl>
+<serialnum>170860_3</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/60/170860_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264207</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/71/170871_image2_1.jpg</originimgurl>
+<serialnum>170871_2</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/71/170871_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264207</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/85/1876185_image2_1.jpg</originimgurl>
+<serialnum>1876185_22</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/85/1876185_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264207</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/93/1876193_image2_1.jpg</originimgurl>
+<serialnum>1876193_21</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/93/1876193_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264207</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/96/1876196_image2_1.jpg</originimgurl>
+<serialnum>1876196_20</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/96/1876196_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264207</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/98/1876198_image2_1.jpg</originimgurl>
+<serialnum>1876198_19</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/98/1876198_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264207</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/63/191963_image2_1.jpg</originimgurl>
+<serialnum>191963_4</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/63/191963_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264207</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/75/191975_image2_1.jpg</originimgurl>
+<serialnum>191975_5</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/75/191975_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264207</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/53/600253_image2_1.jpg</originimgurl>
+<serialnum>600253_6</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/53/600253_image3_1.jpg</smallimageurl>
+</item>
+
+<numOfRows>10</numOfRows>
+<pageNo>1</pageNo>
+<totalCount>22</totalCount>
+ -->
+ </items>
+</body>
+</response>
+
+				

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><title>대중교통api</title>
+</head>
+<body>
+
+<script>
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","http://api.openapi.io/traffic/appletree/v1/0/Path/PathSearch_Exit.asp?changeCount=5&optCount=1&resultCount=10&SY=37.6134436427887&EX=127.126936754911&EY=37.5004198786564&OPT=0&encoding=utf-8&SX=126.926493082645&output=xml&radius=700:2000&weightTime=10:5:5:10:10:5&svcid=f78480bc1c06734607e4c7107d0642f3&x_api_key=MjQ0NC0xNDI4NDMyNDg0NDU5LWVlYzRkYjE1LTI0ZTQtNGJmNS04NGRiLTE1MjRlNGViZjVkOQ==",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.write("<table><tr><th>totalTime</th><th>totalWalk</th><th>totalDistance</th></tr>");
+var x=xmlDoc.getElementsByTagName("info");
+for (i=0;i<x.length;i++)
+{
+document.write("<tr><td>");
+document.write(x[i].getElementsByTagName("totalTime")[0].childNodes[0].nodeValue);
+document.write("<tr><td>");
+document.write(x[i].getElementsByTagName("totalWalk")[0].childNodes[0].nodeValue);
+document.write("<tr><td>");
+document.write(x[i].getElementsByTagName("totalDistance")[0].childNodes[0].nodeValue);
+
+document.write("</td></tr>");
+}
+document.write("</table>");
+
+</script>
+
+</body>
+</html>

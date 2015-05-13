@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Daum 주소→좌표 변환API 테스트 페이지</title>
+<script type="text/javascript" src="http://apis.daum.net/maps/maps2.js?apikey=5627cd2724433e4bd0347109c4f14aee"></script>
+<script type="text/javascript">
+var obj = {
+ apikey: "5627cd2724433e4bd0347109c4f14aee",
+ init : function()
+ {
+  obj.q = document.getElementById('q');
+  obj.b = document.getElementById('b');
+  obj.r = document.getElementById('r');
+  obj.b.onclick = obj.pingSearch;
+ },
+ // 검색을 요청하는 함수 
+  pingSearch : function()
+  {
+     if (obj.q.value)
+     {
+       obj.s = document.createElement('script');
+       obj.s.type ='text/javascript';
+       obj.s.charset ='utf-8';    
+       obj.s.src = 'http://apis.daum.net/maps/addr2coord?apikey=5627cd2724433e4bd0347109c4f14aee' + obj.apikey + '&output=json&callback=obj.pongSearch&q=' + encodeURI(obj.q.value); 
+       document.getElementsByTagName('head')[0].appendChild(obj.s);
+     }
+  },
+  // 검색 결과를 뿌리는 함수 
+ pongSearch : function(z)
+ {
+  obj.r.innerHTML = '';
+  if(!z.channel || z.channel.item.length <= 0)
+  {
+   obj.r.innerHTML = "검색 결과가 없습니다.";
+   return;
+  }
+  else
+  {
+    var y = z.channel.item[0].point_y ;  
+    var x = z.channel.item[0].point_x ;
+    var title = z.channel.item[0].title;
+    obj.addMark(y,x,title);
+  }
+ },
+ // HTML태그 안 먹게 하는 함수
+ escapeHtml : function(str) 
+ {
+  str = str.replace(/&amp;/g, "&");
+  str = str.replace(/&lt;/g, "<");
+  str = str.replace(/&gt;/g, ">");
+  return str;
+ },
+ // HTML태그 삭제하는 함수
+ stripHTMLtag : function(string) {
+  var objStrip = new RegExp();
+  objStrip = /[<][^>]*[>]/gi;
+  return string.replace(objStrip, "");
+ },
+ // 특정 좌표에 마커 추가
+ addMark : function(lat, lng, title)
+ {
+  //var hjMark = new DIcon("./hj.gif", {width:100, height:50}) 
+  var inforMap = new DInfoWindow(title,{width:230,height:30,show:true,removable:false });
+  var point = new DLatLng(lat, lng);
+  var mark = new DMark(point,{infowindow:inforMap});
+  map.addOverlay(mark);
+  map.setCenter(point, 3);
+ }
+};
+window.onload = function()
+{
+ obj.init();
+ obj.pingSearch();
+};
+function initMap(){
+ obj.q.value="";
+ location.reload();
+}
+function measurement_distance(){
+  map.setMode(4); //거리재기
+}
+function measurement_area(){
+  map.setMode(3); //면적재기
+}
+</script>
+ 
+</head>
+<body>
+ <div id="map" style="width:800px;height:500px;"></div>
+ <script type="text/javascript" defer="true">
+ var hjMark = new DIcon("./hj.gif", {width:100, height:50}) 
+ var map = new DMap("map", {point:new DLatLng(37.48273930911395,126.89905685121198), level:3});
+ var inforWin = new DInfoWindow("라잇나우 닷컴입니다!!<br>이동하고 싶은 주소를<br> 입력하세요^^",{width:150,height:50,show:true,removable:false });
+ var m = new DMark(new DLatLng(37.48273930911395,126.89905685121198),{infowindow:inforWin,mark:hjMark});
+ map.addOverlay(m);
+ var zoomControl = new DZoomControl(); 
+ var mapTypeControl = new DMapTypeControl() 
+ map.addControl(zoomControl); 
+ map.addControl(mapTypeControl); 
+ zoomControl.setVAlign("middle");
+ 
+
+</script>
+ 
+ <br/>
+ 
+ <input type="text" name="q" id="q" value=""/>
+ <button id="b">이동하기</button>
+ <button id="init" onclick="initMap()">초기화</button>
+ <button id="measure" onclick="measurement_distance()">거리측정</button>
+ <button id="measure" onclick="measurement_area()">면적재기</button>
+ <div id="r"></div>
+ 
+ 
+</body>
+
+</html>

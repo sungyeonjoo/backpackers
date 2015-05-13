@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>Samjang-myeon &amp; Sicheon-myeon, Sancheong-gun, Gyeongsangnam-do</addr1>
+<areacode>36</areacode>
+<cat1>A01</cat1>
+<cat2>A0101</cat2>
+<cat3>A01010100</cat3>
+<contentid>827077</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20091023153001</createdtime>
+<directions>Take a bus from Seoul’s Nambu Bus Terminal to Jinju. The bus operates at 30-minute intervals from 06:00 to 24:00 each day. The journey takes about 3 hours and 40 minutes. At Jinju Terminal take a bus headed for Jungsan-ri; they operate every hour from 06:10 to 21:10 each day.</directions>
+<dongcode>7</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/62/780962_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/62/780962_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://eng.sancheong.ne.kr/sub/03_01_01.asp&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;eng.sancheong.ne.kr &lt;/a&gt; (Koeran, English, Japanese, Chinese)&lt;Br&gt;&lt;A href=&quot;http://english.knps.or.kr/Knp/Jirisan/Intro/Introduction.aspx?MenuNum=1&amp;Submenu=Npp&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;english.knps.or.kr&lt;/a&gt; (Korean, English, Japanese, Chinese)</homepage>
+<mapx>127.73130875811279</mapx>
+<mapy>35.33643417273122</mapy>
+<masterid>250411</masterid>
+<mlevel>7</mlevel>
+<modifiedtime>20150109173616</modifiedtime>
+<overview>Along with Geumgansan Mountain and Hallasan Mountain,  Jirisan Mountain (지리산) is known to be one of the most sacred mountains in Korea. It was named ‘Jiri’ because it was believed to be a place that turns the innocent into the wise. Jirisan Mountain, located in the south, is one of the five mountain peaks that surround the capital of old Shilla, On December 29, 1957 Jirisan National Park was declared the nation’s first and biggest national park. Its 440.517㎢ area covers Hadong, Sancheon and Hamyang in Gyeongnam; Gurye in Jeonnam; and Namwon in Jeonbuk region. The total area is seven times that of Gyeryong National Park and 52 times that of all of Yeouido.  &lt;br&gt;&lt;br&gt;At 1,915.4 meter-high, Cheonwangbong Peak (천왕봉) is the second highest peak in Jirisan Mountain. From Cheonwangbong Peak begin several valleys such as Chilseon, Tongsin, Cheonwang and Jungsan. The big sheet of rock on the very top of the peak looks as if it is supporting heaven. Sunrise observed from Cheonwangbong Peak is extremely beautiful so much that the old Korean lore says it is a view reserved for people whose family conducted good deeds for three consecutive generations.</overview>
+<sigungucode>9</sigungucode>
+<tel>Jirisan National Park Admin Office +82-55-972-7771~2&lt;br&gt; Jirisan National Park Nambu (southern) Admin Office +82-61-780-7700&lt;br&gt; Jirisan National Park Bukbu (northern) Admin Office +82-63-630-8900&lt;br&gt;</tel>
+<telname>Jirisan National Park</telname>
+<title>Cheonwangbong Peak of Jirisan National Park (지리산 천왕봉)</title>
+<zipcode>666-930</zipcode>
+</item>
+
+<item>
+<contentid>827077</contentid>
+<contenttypeid>76</contenttypeid>
+<expguide>
+</expguide>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-2-1330 (Korean, English, Japanese, Chinese) &lt;br&gt;• For more info: +82-55-972-2114, 972-7772 (Korean)</infocenter>
+<parking>
+</parking>
+<restdate>Open all year round</restdate>
+<usetime>2 hours before sunrise - 2 hours before sunset</usetime>
+</item>
+
+<item>
+<contentid>827077</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>1</fldgubun>
+<infoname>Hiking Course</infoname>
+<infotext>* Main ridge course (3 days 2 nights) &lt;br&gt; Jungsan-ri (중산리) → Beopgyesa Temple (법계사) 6㎞ → Cheonwangbong Peak (천왕봉) 3㎞ → Jeseokbong Peak (제석봉) 2㎞ → Jangteomok shelter (장터목대피소) 1㎞ → Seseok shelter (세석대피소) 6㎞ → Seonbi spring (선비샘) 6㎞ → Byeoksoryeong shelter (벽소령대피소) 4㎞ → Yeonhacheon shelter (연하천대피소) 6㎞ → Tokkibong Peak (토끼봉) 10㎞ → Hwagaejae (화개재) 2㎞ → Samdobong (삼도봉) 2㎞ → Imgeollyeong (임걸령) 4㎞ → Nogodan shelter (노고단대피소) 4㎞ → Hwaeumsa Temple (화엄사) 10㎞ &lt;br&gt;* Daewonsa Temple (대원사) course (7 ~ 8 hours)&lt;br&gt;Daewonsa Temple → Chibanmok shelter (치밭목대피소) 10㎞ → Sseoribong (써리봉) 4㎞ →Jungbong (중봉) 2㎞ → Cheonwangbong 2㎞&lt;br&gt; * Georim (거림) course (7 ~ 8 hours)  &lt;br&gt;Georim  → Seseok shelter 8㎞ → Jangteomok shelter 6㎞ → Jeseokbong Peak 1㎞ → Cheonwangbong 2㎞</infotext>
+<serialnum>0</serialnum>
+</item>
+<item>
+<contentid>827077</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>1</fldgubun>
+<infoname>Mountain Not Access Period</infoname>
+<infotext>Spring fire watch period (subject to change by year): Feb 16-Apr 30 / Nov 5-Dec 15.&lt;br&gt;※ Find more details at the official website. TBD by park directors based on fire weather advisories, snow/precipitation levels, and other local conditions.&lt;br&gt;</infotext>
+<serialnum>1</serialnum>
+</item>
+<item>
+<contentid>827077</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>1</fldgubun>
+<infoname>Natural Preservation Areas (closed to public)</infoname>
+<infotext>Special preservation areas of National Park - until 2026&lt;br&gt;* Seseok Pyeonjeon(Hiking Path Excluded)&lt;br&gt;* Wangdeungjaegosan Swamp&lt;br&gt;* Samdobong Ssukbatjae-Chibatmok (Hiking Path Excluded)&lt;br&gt;&lt;br&gt;※ The listings are subject to change depending on seasonal changes and other circumstance.</infotext>
+<serialnum>2</serialnum>
+</item>
+<item>
+<contentid>827077</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>1</fldgubun>
+<infoname>Areas Open to the Public</infoname>
+<infotext>* Jangteomok 장터목 ~ Cheonwangbong Peak 천왕봉&lt;br&gt;* Jungsanri 중산리 ~ Kalbawi Rock 칼바위 ~ Beopgyesa Temple 법계사 ~ Cheonwangbong Peak 천왕봉&lt;br&gt;* Kalbawi Rock 칼바위 ~ Jangteomok 장터목&lt;br&gt;* Baengmudong hadongbawi Rock 백무동하동바위 ~ Jangteomok 장터목&lt;br&gt;* Saejae 새재 ~ Gallimgil 갈림길 ~ Chibanmok 치밭목&lt;br&gt;* Jungsanri 중산리 ~ Sunduryu 순두류 ~ Beopgyesa Temple 법계사&lt;br&gt;* Ssanggyesa Temple 쌍계사 ~ Buril falls 불일폭포&lt;br&gt;* Yupyeongmaeul 유평마을 ~ Gallimgil 갈림길&lt;br&gt;* Chuseongdong 추성동 ~ Dujidong 두지동&lt;br&gt;* Baengmudong 백무동 ~ Ganaeso (가내소)&lt;br&gt;* Uisin 의신 ~ Samjeong 삼정&lt;br&gt;* Hwaeomsa Temple 화엄사 ~ Nogodan Gogae 노고단 고개 ~ Nogodan Peak 노고단 정상&lt;br&gt;* Hwaeomsa Temple 화엄사 ~ Yeongiam 연기암&lt;br&gt;* Jikjeonmaeul 직전마을 ~ Piagol Shelter 피아골대피소&lt;br&gt;* Seongsamjae 성삼재 ~ Munenggi 무넹기&lt;br&gt;* Cheoneunsa Temple Entrance 천은사입구 ~ Chanamubat 차나무밭&lt;br&gt;* Cheoneunje Entrance 천은제입구 ~ Jebang 제방&lt;br&gt;* Banseon 반선 ~ Yoryongdae 요룡대&lt;br&gt;* Jeongyeongchi 정령치 ~ Pallangchi 팔랑치 ~ Baraebong Peak 바래봉 ~ Unbong 운봉&lt;br&gt;* Guryongsamgok 구룡삼곡 ~ Guryong Valley 구룡폭포&lt;br&gt;* Gogiri 고기리 ~ Goribong 고리봉&lt;br&gt;* Sangbuunmaeul 상부운마을 ~ Buunchi 부운치&lt;br&gt;* Pallangmaeul 팔랑마을 ~ Pallangchi 팔랑치&lt;br&gt;&lt;br&gt;※ The listings are subject to change depending on seasonal changes and other circumstance.</infotext>
+<serialnum>3</serialnum>
+</item>
+<item>
+<contentid>827077</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>1</fldgubun>
+<infoname>Restricted Mountain Areas </infoname>
+<infotext>* Nogodan 노고단 ~ Jangteomok 장터목&lt;br&gt;* Daeseongri 대성리 ~ Seseokpyeongjeon 세석평전&lt;br&gt;* Georim 거림 ~ 1400Goji 1400고지&lt;br&gt;* Chibanmok 치밭목 ~ Cheonwangbong 천왕봉&lt;br&gt;* Dujidong 두지동 ~ Cheonwangbong 천왕봉 &lt;br&gt;* Ganaeso 가내소 ~ Seseokpyeongjeon 세석평전&lt;br&gt;* Samjeong 삼정 ~ Byeoksoryeong 벽소령&lt;br&gt;* Eumjeong 음정 ~ Byeoksoryeong 벽소령&lt;br&gt;* Cheonghakdong 청학동 ~ Samsinbong 삼신봉 ~ Gallimgil 갈림길&lt;br&gt;* Buril falls 불일폭포 ~ Samsinbong 삼신봉 , Sangbuljae 상불재 ~ Samseonggung Palace Entrance 삼성궁입구&lt;br&gt;* Beomwanggyo 범왕교 ~ Tokkibong 토끼봉&lt;br&gt;* Piagol Shelter 피아골대피소 ~ Imgeollyeong 임걸령&lt;br&gt;Manbokdae 만복대 ~ Seongsamjae 성삼재&lt;br&gt;* Dangdong 당동 ~ Dangdonggogae 당동고개&lt;br&gt;* Nogodan 노고단 ~ Samdobong 삼도봉&lt;br&gt;* Yoryongdae 요룡대 ~ Baemsagol Ranger Post 뱀사골공원지킴터&lt;br&gt;* Baemsagol Ranger Post 뱀사골공원지킴터 ~ Samdobong 삼도봉 ~ Bannyabong 반야봉&lt;br&gt;* Manbokdae 만복대 ~ Jeongyeongchi 정령치&lt;br&gt;* Wolpyeongmaeul 월평마을 ~ Baraebong 바래봉&lt;br&gt;&lt;br&gt;※ The listings are subject to change depending on seasonal changes and other circumstance. </infotext>
+<serialnum>4</serialnum>
+</item>
+<item>
+<contentid>827077</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Parking Fees</infoname>
+<infotext>Small-sized 2,000 won &lt;br&gt;Mid-sized 4,000~5,000 won &lt;br&gt;Large-sized 6,000~7,500 won&lt;br&gt;※ Regular shuttle bus can park free of charge. (except for vehicles with monthly parking submission) </infotext>
+<serialnum>5</serialnum>
+</item>
+
+<item>
+<contentid>827077</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/23/799423_image2_1.jpg</originimgurl>
+<serialnum>799423_1</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/23/799423_image3_1.jpg</smallimageurl>
+</item>
+
+</items>
+</body>
+</response>
+						

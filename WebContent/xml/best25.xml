@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>1447, Yocheon-ro, Namwon-si, Jeollabuk-do</addr1>
+<areacode>37</areacode>
+<cat1>A02</cat1>
+<cat2>A0201</cat2>
+<cat3>A02010700</cat3>
+<contentid>1915730</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20140423163038</createdtime>
+<directions>From Central City Bus Terminal, take an express bus bound for Namwon Bus Terminal.&lt;br&gt;(approx. 3hr)&lt;br&gt;&lt;br&gt;From the exit of Namwon Bus Terminal, head  left for about 200m and take Bus 220 at Dotong-dong Sageori Bus Stop.&lt;br&gt;Get off at Nammusaga, Standardchartered Bank (Jeil Bank) Bus Stop. (7 bus stops)&lt;br&gt;Turn left onto the  first alley and continue walking for about 448m to the destination.&lt;br&gt;&lt;br&gt;From Namwon Station (Jeolla Line), take Bus 133, 161 or 142 at the station and get off at Nammunsage, Samjin Pharmacy Bus Stop. (3 bus stops)&lt;br&gt;Turn right onto the first alley and keep walking toward Gwanghalluwon Garden for about 450m.&lt;br&gt;&lt;br&gt;Call the &lt;a href=&quot;http://english.visitkorea.or.kr/enu/GK/GK_EN_2_7_1_1.jsp&quot; class=&quot;web&quot; title=&quot;new window popup&quot; target=&quot;_blank&quot;&gt;Korea Travel Hotline&lt;/a&gt; for assistance with directions.</directions>
+<dongcode>37</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/05/1604105_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/05/1604105_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://www.gwanghallu.or.kr&quot; target=&quot;_blank&quot; title=&quot;new window popup&quot; class=&quot;web&quot;&gt;www.gwanghallu.or.kr&lt;/a&gt;&lt;br&gt;(Korean only)&lt;br&gt;&lt;a href=&quot;http://www.gojb.net/english/&quot; target=&quot;_blank&quot; title=&quot;new window popup&quot; class=&quot;web&quot;&gt;www.gojb.net&lt;/a&gt;&lt;br&gt;(Korean, English, Japanese, Chinese)&lt;br&gt; &lt;a href=&quot;http://en.namwon.go.kr/index.nwn&quot;target=&quot;_blank&quot;title=&quot;new window popup&quot; class=&quot;web&quot;&gt;http://tour.namwon.go.kr&lt;/a&gt; &lt;br&gt;(Korean, English, Japanese, Chiese)</homepage>
+<mapx>127.37954361967876</mapx>
+<mapy>35.40295940476421</mapy>
+<masterid>1607131</masterid>
+<mlevel>4</mlevel>
+<modifiedtime>20150112171709</modifiedtime>
+<overview>Rebuilt in 1638 (the 16th year of King Injo), Gwanghallu Pavilion is a building exemplary of Joseon Dynasty structures. The pavilion was contructed in 1419 by Hwang Hui, a noted prime minister in the early Joseon Dynasty, during his exile in Namwon. The name of the pavilion at that time was Gwangtongnu. In 1434, while the pavilion was undergoing reconstruction, scholar and politician Jeong In-ji called it Gwanghallu after Gwanghancheongheobu, the mythical palace on the moon. &lt;br&gt;&lt;br&gt;Designated as Treasure No. 281, the pavilion is one of four major pavilions known for excellent workmanship, along with Gyeonghoeru Pavilion, Chokseongnu Pavilion and Bubyeongnu Pavilion. Gwanghalluwon Garden, which consists of Gwanghallu Pavilion, a pond, Bangjangjeon Pavilion, and Yeongjugak Pavilion is Historic Site No. 33.</overview>
+<sigungucode>4</sigungucode>
+<tel>+82-63-620-8901~3</tel>
+<title>Gwanghallu Pavilion (광한루)</title>
+<zipcode>590-080</zipcode>
+</item>
+
+<item>
+<contentid>1915730</contentid>
+<contenttypeid>76</contenttypeid>
+<expguide>
+</expguide>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-2-1330 (Korean, English, Japanese, Chinese) &lt;br&gt; • For more info: +82-63-625-4861,&lt;br&gt;+82-63-620-8901~3,&lt;br&gt;+82-63-620-6752</infocenter>
+<parking>Available</parking>
+<restdate>N/A (Open all year round)</restdate>
+<usetime>April-October: 08:00-20:00 (19:00-20:00 Free admission)&lt;BR&gt;November-March: 08:00-20:00 (18:00-20:00 Free admission)</usetime>
+</item>
+
+<item>
+<contentid>1915730</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Admission Fees</infoname>
+<infotext>Adults (ages 19-64): 2,500 won / Group: 2,000 won&lt;br&gt;Youths (ages 13-18): 1,500 won / Group: 1,000 won&lt;br&gt;Children (ages 7-12): 1,000 won / Group: 500 won&lt;br&gt;&lt;br&gt;※ Group:  30 people or more&lt;br&gt;※ Children (aged 6 or under) &amp; Seniors (aged 65 or  over): Free admission&lt;br&gt;※ Disabled (under class  1-3 including one guide / class 4-6): Free admission &lt;br&gt;&lt;br&gt;</infotext>
+<serialnum>0</serialnum>
+</item>
+<item>
+<contentid>1915730</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Parking Fees</infoname>
+<infotext>2,000 won for one-day parking&lt;br&gt;* Refer to the homepage. → &lt;a href=&quot;http://www.gwanghallu.or.kr/content/index.php?gubun=use&amp;dname=tour&quot; target=&quot;_blank&quot; title=&quot;new window popup&quot; class=&quot;web&quot;&gt;Click&lt;/a&gt;!</infotext>
+<serialnum>1</serialnum>
+</item>
+
+</items>
+</body>
+</response>
+						

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head><title>ddd</title>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+th, td {
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<script>
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","http://api.visitkorea.or.kr/openapi/service/rest/KorService/detailIntro?ServiceKey=vs3Y%2Fm4qc9WmDzyaJyRtihhpYfhEAMtgaZHZPOt1quhUS27jSkmk%2FSIF7ZnAtfy6NqzC1Gvw7BiWxVbJgnQ%2Bvw%3D%3D&contentTypeId=32&contentId=397664&MobileOS=ETC&MobileApp=TourAPI3.0_Guide&introYN=Y",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+document.write("<table><tr><th>title</th><th>firstimage</th><th>mapx</th><th>mapy</th></tr>");
+var x=xmlDoc.getElementsByTagName("item");
+for (i=0;i<x.length;i++)
+{ 
+
+document.write("<tr><td>");
+document.write(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
+document.write("</td><td>");
+document.write("</td><td>");
+document.write(x[i].getElementsByTagName("mapx")[0].childNodes[0].nodeValue);
+document.write("</td><td>");
+document.write(x[i].getElementsByTagName("mapy")[0].childNodes[0].nodeValue);
+document.write("</td></tr>");
+}
+document.write("</table>");
+</script>
+
+
+</body>
+</html>

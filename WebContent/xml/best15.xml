@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>119, Jungnogwon-ro, Damyang-eup, Damyang-gun, Jeollanam-do</addr1>
+<areacode>38</areacode>
+<cat1>A01</cat1>
+<cat2>A0101</cat2>
+<cat3>A01010700</cat3>
+<contentid>815386</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20091009143837</createdtime>
+<directions>From Yongsan Station (Seoul), take a train to Gwangju (광주).&lt;br&gt;* KTX (Express) train schedule: 06:40-20:30, 1hr 20min-2hr 25min intervals&lt;br&gt;* Saemaeul train schedule: 09:55-15:55, 1hr 35min-4hr 25min intervals&lt;br&gt;From Gwangju Station, take local Bus 311 to Juknokwon.&lt;br&gt;&lt;br&gt;OR&lt;br&gt;&lt;br&gt;From Central City Bus Terminal (Seoul), take an express bus to Damyang (담양).&lt;br&gt;* Bus schedule: 10:10, 16:10&lt;br&gt;From Damyang Bus Terminal, cross the road and take a Bongsan-Damyang (봉산, 담양) route bus.&lt;br&gt;Get off at the Juknokwon bus stop, and cross the road.&lt;br&gt;&lt;br&gt;Seoul ↔ Damyang (Travel time: about 3 hour 50 minute) &lt;br&gt;Incheon ↔ Damyang (Travel time: about 4 hour) &lt;br&gt;Gwangju ↔ Damyang (Direct bus / Intervals: 10 minute) &lt;br&gt;Gwangju ↔ Damyang (General bus 331, 332 / Intervals: 10 minute)</directions>
+<dongcode>4</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/85/183585_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/85/183585_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://juknokwon.go.kr&quot; /&quot;target=&quot;_blank&quot; class=&quot;web&quot; title=&quot;new window popup&quot; target=&quot;_blank&quot;&gt;juknokwon.go.kr&lt;/a&gt;&lt;br&gt;(Korean only)</homepage>
+<mapx>126.98578591206127</mapx>
+<mapy>35.32866104049689</mapy>
+<masterid>128834</masterid>
+<mlevel>7</mlevel>
+<modifiedtime>20150421175656</modifiedtime>
+<overview>&lt;br&gt;Juknokwon (죽녹원) in Damyang is a bamboo forest cultivated by the town of Damyang. Seonginsan Mountain behind Damyang Hyanggyo (Confucian school) was transformed into Juknokwon Bamboo Garden featuring a beautiful artificial waterfall, pavilion, walking paths and an eco-exhibition center, a popular destination for visitors. It takes about 1 hour to tour around the entire garden. Crossing Hyanggyo Bridge from Juknokwon, a forest for preventing floods can be seen. Lights are turned on in the evenings in the bamboo forest for night walk. &lt;br&gt;&lt;br&gt;</overview>
+<sigungucode>7</sigungucode>
+<tel>+82-61-380-2680 (Korean)</tel>
+<title>Juknokwon (Bamboo Garden) (죽녹원)</title>
+<zipcode>517-802</zipcode>
+</item>
+
+<item>
+<contentid>815386</contentid>
+<contenttypeid>76</contenttypeid>
+<expguide>
+</expguide>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-2-1330 (Korean, English, Japanese, Chinese) &lt;br&gt; • For more info: +82-61-380-2680 (Korean)</infocenter>
+<parking>
+</parking>
+<restdate>Open all year around</restdate>
+<usetime>09:00 - 19:00</usetime>
+</item>
+
+<item>
+<contentid>815386</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Admission Fees</infoname>
+<infotext>* Adults 2,000 won / Group 1,600 won&lt;br&gt;* Youths 1,500 won / Group 1,000 won&lt;br&gt;* Children 1,000 won / Group 600 won&lt;br&gt;※ Group - more 20 people &lt;br&gt;※ Free - ages under 6 or over 65 visitors</infotext>
+<serialnum>0</serialnum>
+</item>
+
+<item>
+<contentid>815386</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/86/183586_image2_1.jpg</originimgurl>
+<serialnum>183586_3</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/86/183586_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>815386</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/87/183587_image2_1.jpg</originimgurl>
+<serialnum>183587_4</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/87/183587_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>815386</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/90/183590_image2_1.jpg</originimgurl>
+<serialnum>183590_5</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/90/183590_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>815386</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/40/184140_image2_1.jpg</originimgurl>
+<serialnum>184140_2</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/40/184140_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>815386</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/60/193160_image2_1.jpg</originimgurl>
+<serialnum>193160_9</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/60/193160_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>815386</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/62/193162_image2_1.jpg</originimgurl>
+<serialnum>193162_10</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/62/193162_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>815386</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/68/193168_image2_1.jpg</originimgurl>
+<serialnum>193168_8</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/68/193168_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>815386</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/73/193173_image2_1.jpg</originimgurl>
+<serialnum>193173_7</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/73/193173_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>815386</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/80/193180_image2_1.jpg</originimgurl>
+<serialnum>193180_1</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/80/193180_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>815386</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/81/193181_image2_1.jpg</originimgurl>
+<serialnum>193181_6</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/81/193181_image3_1.jpg</smallimageurl>
+</item>
+
+</items>
+</body>
+</response>
+						

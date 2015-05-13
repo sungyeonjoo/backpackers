@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>Hyeopjae-gil, Hallim-eup, Jeju-si, Jeju-do</addr1>
+<areacode>39</areacode>
+<cat1>A01</cat1>
+<cat2>A0101</cat2>
+<cat3>A01011200</cat3>
+<contentid>264170</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20030108174826</createdtime>
+<directions>&lt;li&gt; From Seoul to Jeju&lt;br&gt;1. From Gimpo Airport (Subway Line No. 5, Gimpo Airport Station) / Incheon Airport, take the airport limousine bus.&lt;br&gt;&lt;br&gt;2. Inquiries: &lt;a href=&quot;http://www.airport.or.kr/&quot; target=&quot;_blank&quot; class=&quot;Web&quot;&gt;http://www.airport.or.kr/&lt;/a&gt; / +82-1577-2600 (Korean, English, Japanese, Chinese)</directions>
+<dongcode>56</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/38/1924238_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/38/1924238_image2_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot;http://english.tour2jeju.net/main/view.php?idno=50121&amp;menu_id=17&amp;cpage=1&amp;listcount=12&quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;english.tour2jeju.net&lt;/a&gt; (Korean, English, Chinese, Japanese, French, Spanish, German, Russian)</homepage>
+<mapx>126.2383308871723</mapx>
+<mapy>33.39352648738789</mapy>
+<masterid>127490</masterid>
+<mlevel>7</mlevel>
+<modifiedtime>20140610131935</modifiedtime>
+<overview>&lt;br&gt;Hyeopjae Beach (협재해수욕장) is located on the west side of Hanrim-eup, and is part of Hanrim Park.  The beautiful white color of the sand comes from the large amounts of crushed seashells that have been mixed in with the sand. The long seashore stretches for 9 km and has cobalt colored seawater and evergreen forests scattered around the vicinity, making the scenery very beautiful. Just off the beach is Biyangdo Island.  The white sandy beach is about 20 meters long, and the water is 1.2 meters deep with no sudden drops. In the evergreen groves, there are plenty of convenient facilities and campgrounds for visitors to use.&lt;br&gt;Hanrim Park nearby, provides interesting tour sites such as a subtropical arboretum, Hyeopjaegul Cave, and Ssangyonggul Cave.  The seashore to the southwest of Hyeopjae Beach connects to another beach called Geumreung Beach, and both beaches combined are also called Hyeopjae Beach.  From any beach on Jejudo Island, you can always see Mt. Hallasan. It is a great place for a relaxing family vacation.&lt;br&gt;&amp;nbsp;</overview>
+<sigungucode>4</sigungucode>
+<tel>+82-64-728-3394</tel>
+<title>Hyeopjae Beach (협재해변)</title>
+<zipcode>695-934</zipcode>
+</item>
+
+<item>
+<accomcount>6,000 people (Camping site - 200~300 people)</accomcount>
+<contentid>264170</contentid>
+<contenttypeid>76</contenttypeid>
+<expguide>
+</expguide>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-2-1330 &lt;br&gt; (Korean, English, Japanese, Chinese) &lt;br&gt; • For more info: +82-64-728-3394</infocenter>
+<opendate>Every early July ~ late August</opendate>
+<parking>40~50 spaces</parking>
+<useseason>June 21 - August 17, 2014</useseason>
+<usetime>10:00 - 19:00 (Night time opening: July 12 - August 14, 2014 19:00 - 22:00)</usetime>
+</item>
+
+<item>
+<contentid>264170</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Admission Fees</infoname>
+<infotext>Free</infotext>
+<serialnum>0</serialnum>
+</item>
+
+<item>
+<contentid>264170</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/15/171215_image2_1.jpg</originimgurl>
+<serialnum>171215_9</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/15/171215_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264170</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/26/217426_image2_1.jpg</originimgurl>
+<serialnum>217426_7</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/26/217426_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264170</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/29/217429_image2_1.jpg</originimgurl>
+<serialnum>217429_10</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/29/217429_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264170</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/74/218874_image2_1.jpg</originimgurl>
+<serialnum>218874_8</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/74/218874_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264170</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/94/491994_image2_1.JPG</originimgurl>
+<serialnum>491994_3</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/94/491994_image3_1.JPG</smallimageurl>
+</item>
+<item>
+<contentid>264170</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/97/491997_image2_1.JPG</originimgurl>
+<serialnum>491997_4</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/97/491997_image3_1.JPG</smallimageurl>
+</item>
+<item>
+<contentid>264170</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/98/491998_image2_1.JPG</originimgurl>
+<serialnum>491998_1</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/98/491998_image3_1.JPG</smallimageurl>
+</item>
+<item>
+<contentid>264170</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/99/491999_image2_1.JPG</originimgurl>
+<serialnum>491999_2</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/99/491999_image3_1.JPG</smallimageurl>
+</item>
+<item>
+<contentid>264170</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/52/531552_image2_1.jpg</originimgurl>
+<serialnum>531552_6</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/52/531552_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264170</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/53/531553_image2_1.jpg</originimgurl>
+<serialnum>531553_5</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/53/531553_image3_1.jpg</smallimageurl>
+</item>
+
+</items>
+</body>
+</response>
+						

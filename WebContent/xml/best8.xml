@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+<header>
+<resultCode>0000</resultCode>
+<resultMsg>OK</resultMsg>
+</header>
+<body>
+<items>
+<item>
+<addr1>Buk-myeon, Inje-gun, Gangwon-do</addr1>
+<areacode>32</areacode>
+<cat1>A01</cat1>
+<cat2>A0101</cat2>
+<cat3>A01010100</cat3>
+<contentid>264219</contentid>
+<contenttypeid>76</contenttypeid>
+<createdtime>20030108180757</createdtime>
+<directions>From Dong Seoul Bus Terminal, take an intercity bus bound for  Baekdamsa Temple.&lt;br&gt;Get off at the entrance of  Baekdamsa Temple (백담사).&lt;b&gt;&lt;br&gt;&lt;/b&gt;Walk 15min to the bus stop near Baekdam Ticket Box.&lt;br&gt;From the bus stop, take a local bus to Baekdamsa Temple.&lt;br&gt;&lt;br&gt;* Local bus schedule: runs every 15min &lt;br&gt;(available from late-March to late-November only)</directions>
+<dongcode>3</dongcode>
+<firstimage>http://tong.visitkorea.or.kr/cms/resource/43/780843_image2_1.jpg</firstimage>
+<firstimage2>http://tong.visitkorea.or.kr/cms/resource/43/780843_image3_1.jpg</firstimage2>
+<homepage>&lt;a href=&quot; http://english.knps.or.kr/Knp/Seoraksan/Intro/Introduction.aspx?MenuNum=1&amp;Submenu=Npp &quot; target=&quot;_blank&quot; class=&quot;web&quot;&gt;english.knps.or.kr &lt;/a&gt;&lt;br&gt; (Korean, English, Chinese, Japanese)&lt;br&gt;&lt;a href=&quot;http://www.sorakcablecar.co.kr/#!english2/c1fu2&quot; target=&quot;_blank&quot; title=&quot;new window popup&quot;&gt;www.sorakcablecar.co.kr&lt;/a&gt;&lt;br&gt;(Korean, English, Japanese)</homepage>
+<mapx>128.35276341743824</mapx>
+<mapy>38.19350407995068</mapy>
+<masterid>125584</masterid>
+<mlevel>4</mlevel>
+<modifiedtime>20150113095550</modifiedtime>
+<overview>Also referred to as Seolsan and Seolbongsan, the mountain was named Seorak ('Seol' meaning 'snow' and 'Ak' meaning 'big mountain') because the snow would not melt for a long time keeping the rocks in a permanent state of white.  In November 1965, the Seorak Mountain district was designated as a Natural Monument preservation area. Afterwards in December 1973, it was designated as a park preservation area, and in August 1982, as a Biosphere Preservation District by UNESCO.&lt;br&gt;&lt;Br&gt;The park is spread across 4 cities and counties: Sokcho, Inje, Goseong and Yangyang. The highest peak is Daecheongbong; to the east is OeSeorak and to the west is NaeSeorak, which is divided again into North NaeSeorak and South NaeSeorak. North NaeSeorak is composed of Bukcheon, which flows to Ingyecheon and Baekdamcheon streams. There are numerous valleys in NaeSeorak. Follow the Baekdamcheon Valley where all the streams meet and you will reach Baekdamsa Temple, which is known for its beautiful scenery. Upstream there is Gayadong Valley and Suryeomdong Valley, and past Yeongsiam and Mangyeongdae there is Madeungryeong Ridge (1,327m) that leads to Seorakdong. &lt;br&gt;&lt;br&gt;Follow Suryeomdong Valley and you will reach Waryong and Ssangpok waterfalls . Further up is Bongjeongam (1,224m sea level).  Once you arrive at Daecheong Peak you can view the magnificent mountain range. The sunrise viewed from here is spectacular and should not be missed. South NaeSeorak directs the valley from Oknyeotang area to Hangyeryeong. Daeseung Waterfall north of Jangsudae is the most beautiful site of NaeSeorak, which is 88m high.  South of Yongdaeri Valley is the Twelve Fairy Bathing Spring, Oktang Falls, and Yongtang Falls, along with several other traditional relics.</overview>
+<sigungucode>10</sigungucode>
+<tel>+82-33-636-7700, +82-33-636-5546,&lt;br&gt; +82-10-5115-1708, +82-33-636-8355</tel>
+<title>Seoraksan National Park (NaeSeorak) (설악산국립공원 - 내설악)</title>
+<zipcode>252-820</zipcode>
+</item>
+
+<item>
+<contentid>264219</contentid>
+<contenttypeid>76</contenttypeid>
+<expguide>
+</expguide>
+<heritage1>0</heritage1>
+<infocenter>• 1330 Travel Hotline: +82-2-1330 (Korean, English, Japanese, Chinese)&lt;br&gt;• For more info: +82-33-636-7700,&lt;br&gt;+82-33-636-5546, +82-10-5115-1708,&lt;br&gt; +82-33-636-8355</infocenter>
+<parking>Available</parking>
+</item>
+
+<item>
+<contentid>264219</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>1</fldgubun>
+<infoname>Natural Preservation Period (closed to public) </infoname>
+<infotext>Seasonal Forest Fire Watches by Park &lt;br&gt;02.16.2012-05.11.2012 &lt;br&gt;&lt;br&gt;※ TBD by park directors based on fire weather advisories, snow/precipitation levels, and other local conditions.</infotext>
+<serialnum>0</serialnum>
+</item>
+<item>
+<contentid>264219</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>1</fldgubun>
+<infoname>Areas Open to the Public</infoname>
+<infotext>Seorak-dong (설악동) - Ulsanbawi Rock (울산바위) &lt;br&gt;Osaek Mineral Spring (오색약수터) - Yongso Falls (용소폭포)&lt;br&gt;Sogongwon (소공원) - Biryong Falls (비룡폭포)&lt;br&gt;Yeosim Falls (여심폭포) - Yongso Falls (용소폭포)</infotext>
+<serialnum>1</serialnum>
+</item>
+<item>
+<contentid>264219</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>1</fldgubun>
+<infoname>Restricted Mountain Areas </infoname>
+<infotext>Madeungnyeong (마등령)  - Hangyeryeong (한계령)&lt;br&gt;Hwangjang Falls (황장폭포) - Jangsudae (장수대)&lt;br&gt;Sogongwon (소공원) - Huiungak shelter (희운각 대피소)&lt;br&gt;Biseondae (비선대) - Yeongsiam (영시암)&lt;br&gt;Baekdamsa Temple - Daecheongbong Peak (대청봉)&lt;br&gt;Namgyo-ri (남교리) - Daeseungnyeong (대승령) - Hangyeryeong (한계령갈림길)&lt;br&gt;Osaek (오색) - Daecheongbong Peak (대청봉)&lt;br&gt;Sogongwon (소공원) - Gwongeumseong (권금성) (cable car course excluded)&lt;br&gt;Oseam (오세암) - Bongjeongam (봉정암)&lt;br&gt;Entrance of Jujeongol (주전골 입구) - Osaek Heundeulbawi Rock (오색 흔들바위)&lt;br&gt;Osaek Mineral Spring (오색약수터) - Mangyeongdae (만경대)&lt;br&gt;Gombaegol (곰배골) - Gombaeryeong (곰배령) - Gangseon-ri (강선리)&lt;br&gt;Danmongnyeong (단목령) - Jeombongsan (점봉산) - Gombaeryeong (곰배령)</infotext>
+<serialnum>2</serialnum>
+</item>
+<item>
+<contentid>264219</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Parking Fees</infoname>
+<infotext>Compact vehicles: 2,000 won&lt;br&gt;Small &amp;amp; Mid-sized cars: 4,000-5,000 won&lt;br&gt;Large-sized cars: 6,000-7,500 won&lt;br&gt;</infotext>
+<serialnum>3</serialnum>
+</item>
+<item>
+<contentid>264219</contentid>
+<contenttypeid>76</contenttypeid>
+<fldgubun>3</fldgubun>
+<infoname>Admission Fees</infoname>
+<infotext>Free</infotext>
+<serialnum>4</serialnum>
+</item>
+
+<item>
+<contentid>264219</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/40/529940_image2_1.jpg</originimgurl>
+<serialnum>529940_6</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/40/529940_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264219</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/82/769182_image2_1.jpg</originimgurl>
+<serialnum>769182_2</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/82/769182_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264219</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/83/769183_image2_1.jpg</originimgurl>
+<serialnum>769183_3</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/83/769183_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264219</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/85/769185_image2_1.jpg</originimgurl>
+<serialnum>769185_4</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/85/769185_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264219</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/88/769188_image2_1.jpg</originimgurl>
+<serialnum>769188_5</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/88/769188_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264219</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/14/769214_image2_1.jpg</originimgurl>
+<serialnum>769214_1</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/14/769214_image3_1.jpg</smallimageurl>
+</item>
+<item>
+<contentid>264219</contentid>
+<originimgurl>http://tong.visitkorea.or.kr/cms/resource/41/780841_image2_1.jpg</originimgurl>
+<serialnum>780841_7</serialnum>
+<smallimageurl>http://tong.visitkorea.or.kr/cms/resource/41/780841_image3_1.jpg</smallimageurl>
+</item>
+
+</items>
+</body>
+</response>
+						

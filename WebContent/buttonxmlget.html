@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+
+<script type="text/javascript" src="buttonxmlget.js"></script> 
+
+<script> 
+
+var index = 0; 
+
+
+
+
+        function res(){ 
+
+                sendRequest("members.xml", null, view, "GET"); 
+
+        } 
+
+        function view(){ //서버로 부터응답이 왔을 경우 실행이 됨 
+
+                if(xhr.readystate == 4){ 
+
+                        if(xhr.status == 200){ 
+
+                                printData();     //클라이언트에서 수행 
+
+                        } 
+
+                } 
+
+        } 
+
+        function printData(){ 
+
+                // 서버로부터 전달된 XML 자원 받기 (xmlData는 곧 XML문서가 된다.) 
+
+                var xmlData = xhr.responseXML; 
+
+                //XML 문서에서 total 이라는 이름인 엘리먼트들을 가져온다. 
+
+                var root = xmlData.getElementsByTagName("total"); 
+
+
+
+
+                //위의 root가 배열이 될수도 있기 때문에 반복문을 돌려본다.       
+
+                for(var i=0; i<root.length; i++){ 
+
+                        if(index <root[i].childNodes.length){ 
+
+                                var member1 = root[i].childNodes[index];              //<member> 
+
+                                var name1 =  member1.childNodes[0];                 //<name> 
+
+                                var phone1 = member1.childNodes[1];         //<member> 
+
+                                 
+
+                                 
+
+                                //name1은 첫번째 member라는 엘리먼트의 첫번째 요소인 name이다. 
+
+                                //그곳에 있는 홍길동이라는 자원은 name요소의 첫번째 자식 요소임을 잊지말자!! 
+
+                                var name1_value = name1.firstChild.nodeValue; //<name>의 값 
+
+                                var phone1_value = phone1.firstChild.nodeValue;        //<phone>의 값 
+
+                                 
+
+                                //var name1_value = root[i].childNodes[index].childNodes[0].firstChild.nodeValue;   //위에 세줄 한줄로 되는것 
+
+                                //var phone1_value = root[i].childNodes[index].childNodes[1].firstChild.nodeValue;   //위에 세줄 한줄로 되는것 
+
+                                //alert(name+"\n"+name1);    //확인용 
+
+                                 
+
+                                insertRow(name1_value, phone1_value); 
+
+                                index++; 
+
+                        }                                
+
+                } 
+
+                 
+
+                function insertRow(n, p){ 
+
+                        // tr태그를 추가할 table객체를 구한다. 
+
+                        var oTable = document.getElementById("resultTable").children[0]; 
+
+                        // 추가하고자 하는 tr객체 생성 
+
+                        var oTr = document.createElement("tr"); 
+
+                        // 위 tr태그에 들어갈 td 태그 생성 
+
+                        var oTd1 = document.createElement("td"); 
+
+                        var oTd2 = document.createElement("td"); 
+
+                         
+
+                        //tr객체에 align="center" 속성 설정 
+
+                        oTr.style.textAlign = "center"; 
+
+                         
+
+                        //tr객체에 td객체들을 추가한다. 
+
+                        oTr.appendChild(oTd1); 
+
+                        oTr.appendChild(oTd2); 
+
+                         
+
+                        //oTd1에는 이름 문자열을, 그리고 
+
+                        //oTd2에는 전화번호 문자열을 값으로 설정(value) 
+
+                        //예) <td>마루치</td> 
+
+                        oTd1.innerHTML = n;          //n과 p는 인자값으로 받아옴 
+
+                        oTd2.innerHTML = p; 
+
+                         
+
+                        //tr객체를 table객체 추가 
+
+                        oTable.appendChild(oTr); 
+
+                } 
+
+                         
+
+        } 
+
+</script> 
+
+</head> 
+
+<body> 
+
+<input type="button" value="가져오기" onclick="res()"> 
+
+<!-- 
+
+        작업을 하다 보면 어쩔수 없이 XML로 자원들을 받을때가 많다.(responseXML) 
+
+        그렇게 될때 반드시 javascript DOM API를 익혀야 한다. - 복습 
+
+         
+
+ --> 
+
+<table border="1" id="resultTable" width="400"></table> 
+
+</body> 
+
+</html> 
+
+ 
