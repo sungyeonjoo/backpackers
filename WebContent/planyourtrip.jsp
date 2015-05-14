@@ -1,8 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="UTF-8"%>
-<%@ page import="java.sql.*, bean.*, java.util.*"%>
-<jsp:useBean id="memMgr" class="dao.MemberMgr" />
-<%@ include file="dbconnector.jsp" %>
+<%@ page import="java.sql.*"%>
 
+<%  request.setCharacterEncoding("UTF-8");
+
+   String contentid = request.getParameter("contentid");
+
+
+%>
 <!doctype html>
 
 <html lang="en">
@@ -41,25 +45,46 @@
   </style>
 
 <script type="text/javascript">
+
   $(function() {
    $( "#sortable3" ).accordion({
+
          heightStyle: "content"
+
        });
+
     $( "ul.droptrue" ).sortable({
+
       connectWith: "ul"
+
     });
+
+ 
+
     $( "ul.dropfalse" ).sortable({
+
       connectWith: "ul",
+
       dropOnEmpty: false
+
     });
+
     $( "#sortable1, #sortable3" ).disableSelection();
+
   });
+
   </script>
+
+
+  
 </head>
 
 <body>
+
  <div id="wrapper">
+
         <!-- Navigation -->
+        
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -76,25 +101,7 @@
                 
               
                 <li class="dropdown">
-                 <% 
-		            String member_id = (String)session.getAttribute("idKey");
-		            if(member_id != null){
-		               RegisterBean regBean = memMgr.memberMyRead(member_id);
-		               //String member_pw = regBean.getMember_pw();
-		               String member_name = regBean.getMember_name();
-		         %>
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <%=member_name %><b class="caret"></b></a>
-                     <%
-				         }else{
-				     %>
-                    <script type="text/javascript">
-						alert("logout...");
-						location.href = 'logout.jsp';
-					</script>
-                  <%
-		            }
-		         %>  
-		                    
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i>Profile</a>
@@ -107,11 +114,12 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="logout.jsp"><i class="fa fa-fw fa-power-off"></i>Log Out</a>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i>Log Out</a>
                         </li>
                     </ul>
                 </li>
             </ul>
+           
            
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
@@ -134,12 +142,17 @@
                     </li>
                     <li>
                         <a href="diary.jsp"><i class="fa fa-fw fa-wrench"></i>Diary</a>
-                    </li>   
+                    </li>
+                    
                 </ul>
+                
+                
             </div>
             </nav>
             
-       <div>
+            
+            
+            <div>
         <div id="page-wrapper">
         <div class="container-fluid">
                 <!-- Page Heading -->
@@ -151,7 +164,23 @@
                         </div>
                 </div>
         </div>
-      
+
+<ul id="sortable1" class="droptrue">
+
+  <li class="ui-state-default">Can be dropped..</li>
+
+  <li class="ui-state-default">..on an empty list </li>
+
+  <li class="ui-state-default">Item 3</li>
+
+  <li class="ui-state-default">Item 4</li>
+
+  <li class="ui-state-default">Item 5</li>
+
+</ul>
+
+ 
+<!-- 
 <ul id="sortable2" class="dropfalse">
 
   <li class="ui-state-highlight">Cannot be dropped..</li>
@@ -165,6 +194,9 @@
   <li class="ui-state-highlight">Item 5</li>
 
 </ul>
+
+  -->
+
 
 
  <div id="sortable3">
