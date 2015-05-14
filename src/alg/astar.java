@@ -10,60 +10,30 @@ public class astar
     private Stack<Integer> stack;
     public int T, tnow;
     public int time_windows[][];
-    public int adjacency_matrix[][];
-    
-    public int time, cost;
-    
-    public void setTime(int time)
-    {
-    	this.time = time;
-    }
-    
-    public void setCost(int cost)
-    {
-    	this.cost = cost;
-    }
-    
-    public int getTime()
-    {
-    	return time;
-    }
-    
-    public astar(int time)
-    {
-stack = new Stack<Integer>();
-        
-        //initial data
-        this.time = time;
-        int[][] adjacency = new int[2][2];
-        System.out.println("time : "+time);
-        adjacency[0][0]=time;
-        adjacency[0][0]=time;
-        adjacency[1][1]=time;//--> set according to the from-to time
-        int time_windows[][]= new int[2][3];
-        time_windows[1][1] = 0;
-        time_windows[1][2] = 1040;
-        T = 540; // starting time;
-        //call the dijkstra
-        System.out.println("Testing entering from jsp");
-        tsp(adjacency,time_windows, T);
-    }
+	public int stay_time[];
     public astar()
     {
-        
+        stack = new Stack<Integer>();
     }
-    /*public static void main(String... arg)
+    public static void main(String... arg)
     {
         int number_of_nodes;
         Scanner scanner = null;
         try
         {
             System.out.println("Enter the number of nodes in the graph");
-            scanner = new Scanner(System.in);    // ë…¸ë“œ ì…ë ¥í•˜ë ¤ê³  í•˜ëŠ” ê²ƒ
-            number_of_nodes = scanner.nextInt();   
+            scanner = new Scanner(System.in);    // ³ëµå ÀÔ·ÂÇÏ·Á°í ÇÏ´Â °Í
+            number_of_nodes = scanner.nextInt(); 
+            
             int adjacency_matrix[][] = new int[number_of_nodes + 1][number_of_nodes + 1];
             System.out.println("Enter Departure Time in your schedule");
             int T = scanner.nextInt();
+            int stay_time[]= new int[number_of_nodes+1]; 
+            System.out.println("Enter the stay time at nodes");
+            for (int z = 1; z <=  number_of_nodes; z++)
+            {
+            	 stay_time[z] = scanner.nextInt();
+            }
             int time_windows[][]= new int[number_of_nodes+1][2+1];     // size...
             System.out.println("Enter the time windows");
         
@@ -75,16 +45,7 @@ stack = new Stack<Integer>();
                    time_windows[x][y] = scanner.nextInt();
                 }
            
-            }   for (int x = 1; x <= number_of_nodes; x++)
-            {
-                  
-                for (int y = 1; y <= 2; y++)
-                {
-                   System.out.print(time_windows[x][y]) ;
-                   
-                }
-                System.out.println();     
-            }
+            }   
 
             
          
@@ -103,53 +64,59 @@ stack = new Stack<Integer>();
                 {
                     if (adjacency_matrix[i][j] == 1 && adjacency_matrix[j][i] == 0)
                     {
-                        adjacency_matrix[j][i] = 1;          // ëŒì•„ê°€ì§€ ì•Šê¸° ìœ„í•œ ì‹.( ê°”ë‹¤ê°€ ëŒì•„ì˜¬ ìˆ˜ë„ ìˆìŒ)
+                        adjacency_matrix[j][i] = 1;          // µ¹¾Æ°¡Áö ¾Ê±â À§ÇÑ ½Ä.( °¬´Ù°¡ µ¹¾Æ¿Ã ¼öµµ ÀÖÀ½)
                     }
                 }
-            }                      // matrix ì…ë ¥ ê°’
+            }                      // matrix ÀÔ·Â °ª
             
             System.out.println("The citys are visited as follows");
            
     
             astar travel = new astar();
-            travel.tsp(adjacency_matrix,time_windows, T);
+            travel.tsp(adjacency_matrix, time_windows, T, stay_time);
       
             }
          catch (InputMismatchException inputMismatch)
          {
-             System.out.println("Wrong Input format");   // ìˆ«ìê°€ ì•„ë‹Œ ë‹¤ë¥¸ ê°’ì„ ì…ë ¥í•˜ë©´, í”„ë¡œê·¸ë¨ì´ ì •ì§€ ë¨.
+             System.out.println("Wrong Input format");   // ¼ıÀÚ°¡ ¾Æ´Ñ ´Ù¸¥ °ªÀ» ÀÔ·ÂÇÏ¸é, ÇÁ·Î±×·¥ÀÌ Á¤Áö µÊ.
          }
         scanner.close();
-    }        */     
+    }             
  
-    public void tsp(int adjacencyMatrix[][], int timewindow[][], int tnow)
+    public void tsp(int adjacencyMatrix[][], int timewindow[][], int tnow, int staytime[])
     {
        this.time_windows = timewindow;
        this.tnow = tnow;
+       this.stay_time=staytime;
         numberOfNodes = adjacencyMatrix[1].length - 1;
         
         int[] visited = new int[numberOfNodes + 1];
         visited[1] = 1;
+        stack.push(numberOfNodes);
         stack.push(1);
         int element, dst = 0, i;
         int min = Integer.MAX_VALUE;
-        int Sum =-(adjacencyMatrix[numberOfNodes][numberOfNodes]) , t, S;
+        int Sum = 0 , Sum_waiting = 0, t, S;
         boolean minFlag = false;
         System.out.print(1 + "\t");
         
-        while (!stack.isEmpty())
+        while (!stack.isEmpty() )
         {   
             element = stack.peek();
-            i = 1;
             min = Integer.MAX_VALUE;
-            while (i <= numberOfNodes)
+            i = 1;
+            while (i <= (numberOfNodes-1))
             {                       
                /* System.out.println("adj : "+adjacencyMatrix[element][i]);
                 System.out.println("tnow : "+tnow);
                 System.out.println("timewindow1: "+time_windows[i][1]);
-                System.out.println("timewindow2: "+time_windows[i][2]);*/
-                if (adjacencyMatrix[element][i] > 1 && tnow >= time_windows[i][1] && tnow <= time_windows[i][2] && visited[i] == 0 )
+                System.out.println("timewindow2: "+time_windows[i][2]); */
+                if (adjacencyMatrix[element][i] > 1 
+                		&& tnow >= (time_windows[i][1]-15) 
+                				&& tnow <= time_windows[i][2] 
+                						&& visited[i] == 0)
                 {
+                	
                     if (min > (adjacencyMatrix[element][i]+adjacencyMatrix[i][numberOfNodes]))
                     {
                         min = (adjacencyMatrix[element][i]+adjacencyMatrix[i][numberOfNodes]);
@@ -159,31 +126,42 @@ stack = new Stack<Integer>();
                         
                     } 
 
-                }       // 1ë²ˆ ë…¸ë“œë¡œë¶€í„° 7ë²ˆ ë…¸ë“œê¹Œì§€ ê°ˆ ë•Œ, ê°€ì¥ ì ì€ ê°’ìœ¼ë¡œ ì ì€ edgeë¥¼ ì„ íƒ.
+                }       // 1¹ø ³ëµå·ÎºÎÅÍ 7¹ø ³ëµå±îÁö °¥ ¶§, °¡Àå ÀûÀº °ªÀ¸·Î ÀûÀº edge¸¦ ¼±ÅÃ.
                
                 i++;
                 
             } 
             if (minFlag)
-            {   int Min=min-adjacencyMatrix[dst][numberOfNodes];
+            {   
+            	int Min=min-adjacencyMatrix[dst][numberOfNodes], semitime=tnow, arrivaltime=semitime+adjacencyMatrix[element][dst];
+            	if(arrivaltime<=time_windows[dst][1]){
+            		
+            		int gettime=time_windows[dst][1]-arrivaltime;
+            		Sum_waiting=gettime;
+            	}
                 visited[dst] = 1;
                 stack.push(dst);
                 System.out.print(dst + "\t");
-                t= Min + tnow;
-                S = Min + Sum;
+                t= Min + tnow + staytime[dst];
+                S = Min + Sum + staytime[dst];
                 tnow = t;
                 Sum = S;
                 minFlag = false;
                 continue;
-                // sum 
+                // sum
+                
             } 
-            stack.pop();   //stackì„ ì—†ì• ëŠ” ê²ƒ 
-        } 
-        System.out.print("\n");
+            
+              stack.pop(); //stackÀ» »Ì±â  System.out.print("\n");
+          
+        }
+        System.out.print(numberOfNodes);
         System.out.print("\n");
         System.out.print("Total distance is : ");
-        System.out.print(Sum);
-
+        System.out.print(Sum+adjacencyMatrix[dst][numberOfNodes]);
+        System.out.print("\n");
+        System.out.print("Total waiting time is : ");
+        System.out.print(Sum_waiting);
     }
     
   
