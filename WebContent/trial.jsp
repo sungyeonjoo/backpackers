@@ -1,7 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-   pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+   pageEncoding="utf-8"%>
 <%@ page import="alg.astar"%>
-<%@ page import="java.*"%>
+<%@ page import="java.*, java.sql.*"%>
+<%@ include file="dbconnector.jsp" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -15,10 +16,16 @@
 		   window.location.replace("trial.jsp?s="+cc, dd);
 		   }
 	</script>
-	
 	<body>
+								<%
+                                String clip=(String) session.getAttribute("mapx");  
+								String mapx=(String) session.getAttribute("mapx");  
+								String mapy=(String) session.getAttribute("mapy");  
+								if(mapx==null&mapy==null) mapx=""; mapy=""; 
+                        		%>
+                        		<input type="text" name="mapx" value=<%=mapx%>>
+                                <input type="text" name="mapy" value=<%=mapy%>>
 	<script>
-	
 	function getValue()
    {
       if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -26,13 +33,12 @@
       } else {// code for IE6, IE5
          xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
       }
-
-      xmlhttp.open("GET","http://api.openapi.io/traffic/appletree/v1/0/Path/PathSearch_Exit.asp?SY="+ 37.505157232495456 +"&SX="+ 127.05709893474192 +"&EY="+ 37.551111761905204 +"&EX=" + 126.98784838350313 + "&changeCount=5&optCount=1&resultCount=10&OPT=0&encoding=utf-8&output=xml&radius=700:2000&weightTime=10:5:5:10:10:5&svcid=f78480bc1c06734607e4c7107d0642f3&x_api_key=MjQ1NS0xNDI4NjczNjg3ODI4LWQzYTE2ZDNlLWE0M2QtNDg0MS1hMTZkLTNlYTQzZDI4NDE4MA==",false);
+	
+      xmlhttp.open("GET","http://api.openapi.io/traffic/appletree/v1/0/Path/PathSearch_Exit.asp?SY="+ <%=mapy%> +"&SX="+ <%=mapx%> +"&EY="+ 37.551111761905204 +"&EX=" + 126.98784838350313 + "&changeCount=5&optCount=1&resultCount=10&OPT=0&encoding=utf-8&output=xml&radius=700:2000&weightTime=10:5:5:10:10:5&svcid=f78480bc1c06734607e4c7107d0642f3&x_api_key=MjQ1NS0xNDI4NjczNjg3ODI4LWQzYTE2ZDNlLWE0M2QtNDg0MS1hMTZkLTNlYTQzZDI4NDE4MA==",false);
       xmlhttp.send();
       xmlDoc = xmlhttp.responseXML;
       
       var x = xmlDoc.getElementsByTagName("info");
-      
    //  document.write("<table><tr><th>totalTime</th></tr>");
     // document.write("<tr><td>");
      document.write(x[0].getElementsByTagName('totalTime')[0].childNodes[0].nodeValue);
@@ -47,7 +53,9 @@
      
    }
    </script>
-
+   <%
+	  conn.close();
+                        %>  
    <%
    String aa = request.getParameter("s");
    if(aa!=null){
@@ -64,7 +72,7 @@
          astar trial1 = new astar(Integer.parseInt(aa));
          trial1.getTime();
          %>
-<!--<jsp:getProperty name="trial" property="time"           /> -->
+<!--<jsp:getProperty name="trial" property="time"/> -->
    <!--</jsp:useBean>-->
    <%} %>
    <input type="button" value="get" onclick='trial()'/>

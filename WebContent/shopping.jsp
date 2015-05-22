@@ -241,7 +241,7 @@ div.desc {
       //}
       //document.write("</td><td>");
    
-      document.write("<a href='./popup.jsp?contentid="+ x[i].getElementsByTagName("contentid")[0].childNodes[0].nodeValue +"'>");
+      document.write("<a href='./popup.jsp?contentid="+ x[i].getElementsByTagName("contentid")[0].childNodes[0].nodeValue +"&mapx="+x[i].getElementsByTagName("mapx")[0].childNodes[0].nodeValue+"&mapy="+x[i].getElementsByTagName("mapy")[0].childNodes[0].nodeValue+"&contenttypeid="+x[i].getElementsByTagName("contenttypeid")[0].childNodes[0].nodeValue+"'>");
       
       document.write('<INPUT type="button" class="button" value="clip"/>');
       

@@ -1,12 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="UTF-8"%>
-<%@ page import="java.sql.*"%>
-
+<%@ page import="java.sql.*, bean.*, java.util.*"%>
+ <jsp:useBean id="memMgr" class="dao.MemberMgr" />
 <%  request.setCharacterEncoding("UTF-8");
 
    String pageNo = request.getParameter("pageNo");
 
   String areacode = request.getParameter("areacode");
   String contentid = request.getParameter("contentid");
+  String contentTypeId = request.getParameter("contentTypeId");
 
 %>
 <!DOCTYPE html>
@@ -99,7 +100,27 @@ div.desc {
             <ul class="nav navbar-right top-nav">
                 
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                 <% 
+         
+		            String member_id = (String)session.getAttribute("idKey");
+		         
+		            if(member_id != null){
+		               RegisterBean regBean = memMgr.memberMyRead(member_id);
+				 		String member_name = regBean.getMember_name();
+		         %>
+         
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <%=member_name %><b class="caret"></b></a>
+                     <%
+				         }else{
+				     %>
+                    <script type="text/javascript">
+						alert("logout...");
+						location.href = 'logout.jsp';
+					</script>
+                  <%
+		            }
+		         %>  
+		                    
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i>Profile</a>
@@ -112,7 +133,7 @@ div.desc {
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-power-off"></i>Log Out</a>
+                            <a href="logout.jsp"><i class="fa fa-fw fa-power-off"></i>Log Out</a>
                         </li>
                     </ul>
                 </li>
@@ -279,7 +300,7 @@ TextBox1<br>
       //}
       //document.write("</td><td>");
    
-      document.write("<a href='./popup.jsp?contentid="+ x[i].getElementsByTagName("contentid")[0].childNodes[0].nodeValue +"'>");
+        document.write("<a href='./popup.jsp?contentid="+ x[i].getElementsByTagName("contentid")[0].childNodes[0].nodeValue +"&mapx="+x[i].getElementsByTagName("mapx")[0].childNodes[0].nodeValue+"&mapy="+x[i].getElementsByTagName("mapy")[0].childNodes[0].nodeValue+"&contenttypeid="+x[i].getElementsByTagName("contenttypeid")[0].childNodes[0].nodeValue+"'>");
       
       document.write('<INPUT type="button" class="button" value="clip"/>');
       

@@ -101,7 +101,7 @@ function inputCheck(){
                             <div class="form-group">
                                         <input type="password" name="member_pw" id="member_pw" class="form-control input-sm" placeholder="Password" required>
                                     	<br/>
-                                   <input type="password" name="member_pwconfirm" id="member_pwconfirm" class="form-control input-sm" placeholder="Confirm Password" required>  	
+                                  <!--  <input type="password" name="member_pwconfirm" id="member_pwconfirm" class="form-control input-sm" placeholder="Confirm Password" required>  	 -->
                             </div>
                            
                             <input type="submit" value="sign up" class="btn btn-info btn-block" onClick="inputCheck()">

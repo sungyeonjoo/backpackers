@@ -3,12 +3,14 @@
  <%@ include file="dbconnector.jsp" %>
 <%  request.setCharacterEncoding("UTF-8");
 
-   String contentid = request.getParameter("contentid");
+	String contentid = request.getParameter("contentid");
+	String contenttypeid = request.getParameter("contenttypeid");
+   String mapx = request.getParameter("mapx");
+   String mapy = request.getParameter("mapy");
    clipboard c = new clipboard();
    c.addClip(contentid);
-
-
 %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -86,28 +88,31 @@
                         <form role="form" action="popupok.jsp" method="post">
                             <div class="form-group">
                                 <%
-							    String sql = "select count(*)+001 as COUNT2 from clipboard";
-							    Statement stmt = conn.createStatement();
-						        ResultSet rs = stmt.executeQuery(sql);
-									rs.next() ;
-									String COUNT2 =rs.getString("COUNT2");
-								%>
+                         String sql = "select count(*)+001 as COUNT2 from clipboard";
+                         Statement stmt = conn.createStatement();
+                          ResultSet rs = stmt.executeQuery(sql);
+                           rs.next() ;
+                           String COUNT2 =rs.getString("COUNT2");
+                        %>
                                 <input type="hidden" name="clip_code" class="form-control input-sm" value="clip<%=COUNT2%>"> 
-                                <input type="text" name="clip_staytime"  class="form-control input-sm" placeholder="stay time">
+                                <input type="text" name="clip_stay"  class="form-control input-sm" placeholder="stay time">
                                 <input type="hidden" name="contentId" value=<%=contentid%>>
+                                <input type="hidden" name="contenttypeid" value=<%=contenttypeid%>>
+                                <input type="hidden" name="mapx" value=<%=mapx%>>
+                                <input type="hidden" name="mapy" value=<%=mapy%>>
                                 
                                 <%
                                 String plan_code=(String) session.getAttribute("plan_code");  
                                 if(plan_code==null) plan_code="";  
-							    %>
+                        		%>
                                 <input type="hidden" name="plan_code" value=<%=plan_code%>>
                             </div>
                             
                              <%
-								rs.close();
-								stmt.close();
-								conn.close();
-								%>  
+                        rs.close();
+                        stmt.close();
+                        conn.close();
+                        %>  
                             <input type="submit" value="ok" class="btn btn-info btn-block" onclick="wincl()">
                              <!-- 
                              <input type="button" value="ok" onclick="wincl()">

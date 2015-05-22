@@ -5,30 +5,36 @@
 <head>
 </head>
 <body>
-</body>
+
 
 <%  request.setCharacterEncoding("UTF-8");
 	Class.forName("com.mysql.jdbc.Driver");
 
 	String url = "jdbc:mysql://203.253.70.34:3306/backpackers?autoReconnect=true";
 	String clip_code = request.getParameter("clip_code");
-	String clip_staytime = request.getParameter("clip_staytime");
+	String clip_stay = request.getParameter("clip_stay");
 	String contentId = request.getParameter("contentId");
+	String contenttypeid = request.getParameter("contenttypeid");
 	String plan_code = request.getParameter("plan_code");
-	
+	String mapx = request.getParameter("mapx");
+	String mapy = request.getParameter("mapy");
 	
 	try{
 		Connection conn = DriverManager.getConnection(url, "user2015", "!user2015");
 		Statement stmt = conn.createStatement();
 			
-		String sql = "insert into clipboard(clip_code,clip_staytime, contentId, plan_code) VALUES(?,?,?,?)";
+		String sql = "insert into clipboard(clip_code, clip_stay, contentId, contenttypeid, plan_code, mapx, mapy) VALUES(?,?,?,?,?,?,?)";
 		
 		PreparedStatement pstmt = conn.prepareStatement(sql);
 		
 		pstmt.setString(1,clip_code);
-		pstmt.setString(2,clip_staytime);
+		pstmt.setString(2,clip_stay);
 		pstmt.setString(3,contentId);
-		pstmt.setString(4,plan_code);
+		pstmt.setString(4,contenttypeid);
+		pstmt.setString(5,plan_code);
+		pstmt.setString(6,mapx);
+		pstmt.setString(7,mapy);
+		
 		session.setAttribute("contentId", contentId);
 		%>
 		<script>
@@ -52,7 +58,7 @@
 
 	%>
 
-		
+</body>		
 		
 		
 </html>

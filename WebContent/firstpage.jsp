@@ -61,7 +61,7 @@
                    <% 
          
             String member_id = (String)session.getAttribute("idKey");
-         
+         	
             if(member_id != null){
                RegisterBean regBean = memMgr.memberMyRead(member_id);
                
@@ -96,7 +96,7 @@
             <div class="btns">
              
             <div  style=display:inline;>
-             <a href="newtrip.jsp"> 
+             <a href="plan.jsp"> 
                 <div class="btn btn-cta-secondary">Plan your new trip</div>
                  </a>
           </div>         

@@ -10,12 +10,80 @@ public class astar
     private Stack<Integer> stack;
     public int T, tnow;
     public int time_windows[][];
-	public int stay_time[];
-    public astar()
+    public int stay_time[];
+   /* public int time, cost;
+    
+    
+    public int getTime() {
+		return time;
+	}
+
+	public void setTime(int time) {
+		this.time = time;
+	}
+
+	public int getCost() {
+		return cost;
+	}
+
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
+*/
+	public astar()
     {
         stack = new Stack<Integer>();
     }
-    public static void main(String... arg)
+    
+    public int getNumberOfNodes() {
+		return numberOfNodes;
+	}
+
+	public void setNumberOfNodes(int numberOfNodes) {
+		this.numberOfNodes = numberOfNodes;
+	}
+
+	public Stack<Integer> getStack() {
+		return stack;
+	}
+
+	public void setStack(Stack<Integer> stack) {
+		this.stack = stack;
+	}
+
+	public int getT() {
+		return T;
+	}
+
+	public void setT(int t) {
+		T = t;
+	}
+
+	public int getTnow() {
+		return tnow;
+	}
+
+	public void setTnow(int tnow) {
+		this.tnow = tnow;
+	}
+
+	public int[][] getTime_windows() {
+		return time_windows;
+	}
+
+	public void setTime_windows(int[][] time_windows) {
+		this.time_windows = time_windows;
+	}
+
+	public int[] getStay_time() {
+		return stay_time;
+	}
+
+	public void setStay_time(int[] stay_time) {
+		this.stay_time = stay_time;
+	}
+
+	public static void main(String... arg)
     {
         int number_of_nodes;
         Scanner scanner = null;
@@ -112,7 +180,7 @@ public class astar
                 System.out.println("timewindow1: "+time_windows[i][1]);
                 System.out.println("timewindow2: "+time_windows[i][2]); */
                 if (adjacencyMatrix[element][i] > 1 
-                		&& tnow >= (time_windows[i][1]-15) 
+                		&& tnow >= (time_windows[i][1]-9999) 
                 				&& tnow <= time_windows[i][2] 
                 						&& visited[i] == 0)
                 {
