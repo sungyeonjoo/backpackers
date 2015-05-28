@@ -88,31 +88,37 @@
                         <form role="form" action="popupok.jsp" method="post">
                             <div class="form-group">
                                 <%
-                         String sql = "select count(*)+001 as COUNT2 from clipboard";
-                         Statement stmt = conn.createStatement();
+                         String sql = "select count(*)+001 as COUNT from clipboard";
+                          Statement stmt = conn.createStatement();
                           ResultSet rs = stmt.executeQuery(sql);
                            rs.next() ;
-                           String COUNT2 =rs.getString("COUNT2");
-                        %>
-                                <input type="hidden" name="clip_code" class="form-control input-sm" value="clip<%=COUNT2%>"> 
+                           String COUNT =rs.getString("COUNT");
+                       		 %>
+                                <input type="hidden" name="clip_code" class="form-control input-sm" value="clip<%=COUNT%>"> 
                                 <input type="text" name="clip_stay"  class="form-control input-sm" placeholder="stay time">
                                 <input type="hidden" name="contentId" value=<%=contentid%>>
                                 <input type="hidden" name="contenttypeid" value=<%=contenttypeid%>>
                                 <input type="hidden" name="mapx" value=<%=mapx%>>
                                 <input type="hidden" name="mapy" value=<%=mapy%>>
-                                
                                 <%
                                 String plan_code=(String) session.getAttribute("plan_code");  
                                 if(plan_code==null) plan_code="";  
-                        		%>
+                                String sql2 = "select count(*)+001 as COUNT2 from clipboard where plan_code='"+plan_code+"'";
+                                Statement stmt2 = conn.createStatement();
+                                ResultSet rs2 = stmt2.executeQuery(sql2);
+                                 rs2.next() ;
+                                 String COUNT2 =rs2.getString("COUNT2");
+                                %>
                                 <input type="hidden" name="plan_code" value=<%=plan_code%>>
-                            </div>
-                            
+                                <input type="hidden" name="clip_seq" value="<%=COUNT2%>">
+                                </div>
                              <%
-                        rs.close();
-                        stmt.close();
-                        conn.close();
-                        %>  
+                             rs.close();
+                             stmt.close();
+                             rs2.close();
+                             stmt2.close();
+                             conn.close();
+                       		 %>  
                             <input type="submit" value="ok" class="btn btn-info btn-block" onclick="wincl()">
                              <!-- 
                              <input type="button" value="ok" onclick="wincl()">

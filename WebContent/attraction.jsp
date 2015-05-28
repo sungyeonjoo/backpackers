@@ -4,7 +4,6 @@
 <%  request.setCharacterEncoding("UTF-8");
 
    String pageNo = request.getParameter("pageNo");
-
   String areacode = request.getParameter("areacode");
   String contentid = request.getParameter("contentid");
   String contentTypeId = request.getParameter("contentTypeId");

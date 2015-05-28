@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>loginok</title>
+<title>login ok</title>
 </head>
 <body>
 <jsp:useBean id="memberMgr" class="dao.MemberMgr" />
@@ -33,6 +33,6 @@
 <% 
 	}
 	%>
-<p>loginok<%=member_id %></p>
+<p>login ok <%=member_id %></p>
 </body>
 </html>

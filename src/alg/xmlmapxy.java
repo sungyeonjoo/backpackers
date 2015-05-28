@@ -1,6 +1,6 @@
 package alg;
 import java.io.IOException;
-import java.io.ObjectInputStream.GetField;
+//import java.io.ObjectInputStream.GetField;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -16,7 +16,12 @@ import java.util.Stack;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
- 
+
+import java.lang.NullPointerException;
+
+
+
+
 
 
 
@@ -46,13 +51,25 @@ private Statement stmt2;
        stack = new Stack<Integer>();
    }
    
+   public static String plan_code;
+      
+      public static String getPlan_code() {
+      return plan_code;
+      }
+     public static void setPlan_code(String plan_code) throws SQLException, SAXException, IOException, ParserConfigurationException {
+         xmlmapxy.plan_code = plan_code;
+         System.out.println(plan_code);
+      //return plan_code;
+         xmlmapxy.main(null, plan_code);
+      }
    
    
    
-   
-   public static void main(String[] args) throws SQLException, SAXException, IOException, ParserConfigurationException {
+   public static void main(String[] args, String plan_code) throws SQLException, SAXException, IOException, ParserConfigurationException {
       
       
+       //String plancode = getPlan_code(plan_code);
+      //System.out.println(plancode);
       
       
         ArrayList<clip> list = new ArrayList<clip>();
@@ -65,7 +82,8 @@ private Statement stmt2;
             String url = "jdbc:mysql://203.253.70.34:3306/backpackers?autoReconnect=true";
             Connection conn = DriverManager.getConnection(url, "user2015", "!user2015");
             Statement st = conn.createStatement();
-            ResultSet srs = st.executeQuery("SELECT * FROM clipboard");
+            //ResultSet srs = st.executeQuery("select * from clipboard where plan_code = '" + plan_code +"'");
+            ResultSet srs = st.executeQuery("select * from clipboard");
             while (srs.next()) {
                clip place = new clip(null, null, null);
                place.setClip_code(srs.getString("clip_code"));
@@ -99,6 +117,8 @@ private Statement stmt2;
     //}
    
     //public void openapi(String[] args)throws SAXException, IOException, ParserConfigurationException {
+        //String path = FileReaderTestgetPath();
+        //FileReader file = new FileReader(path + "test.json");
        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
          DocumentBuilder builder = factory.newDocumentBuilder();
          int adjacency_matrix[][] = new int[list.size()+1][list.size()+1];
@@ -112,7 +132,8 @@ private Statement stmt2;
                //if(s==e){System.out.println(999);}
                if(s==e){adjacency_matrix[s][e] = 999;}
                else{
-         Document doc = builder.parse("./WebContent/apixml/"
+                  
+         Document doc = builder.parse("C:/Users/Owner/workspace/backpackers/WebContent/apixml/"
 
  + "SY="+ list.get(s-1).getMapy()  
   //+ "SY="+ List[1][1]  
@@ -128,9 +149,28 @@ private Statement stmt2;
                 //+ "&EY="+ 37.551111761905204
                 //+ "&EX=" + 126.98784838350313
           + ".xml");  // 도시
+          
+          
+/*
+         Document doc = builder.parse("http://api.openapi.io/traffic/appletree/v1/0/Path/PathSearch_Exit.asp?"
 
-        
-      //xml���ϰ��
+          + "SY="+ list.get(s-1).getMapy()    // 온도 표시 C or F
+
+          + "&SX="+list.get(s-1).getMapx()    // 국가 
+
+          + "&EY="+ list.get(e-1).getMapy()
+          + "&EX=" + list.get(e-1).getMapx()
+          + "&x_api_key=" + mapxy.get(s)
+          //+ "SY="+ 37.505157232495456   // 온도 표시 C or
+           //+ "&SX="+ 127.05709893474192   // 국가 
+
+           //+ "&EY="+ 37.551111761905204
+           //+ "&EX=" + 126.98784838350313
+     + "&changeCount=5&optCount=1&resultCount=10&OPT=0&encoding=utf- 8&output=xml&radius=700:2000&weightTime=10:5:5:10:10:5&svcid=f78480bc1c06734607e4c7107d0642f3");  // 도시
+          
+          */
+         //System.out.println(mapxy.get(s));
+      //xml??????
       
       NodeList list1 = doc.getElementsByTagName("info");
         for(int j=0; j<list1.getLength(); j++){
@@ -194,7 +234,7 @@ node2=node2.getNextSibling()){
                   +"&introYN=Y&MobileOS=ETC&MobileApp=AppTesting");
             
                        
-//xml���ϰ��
+//xml??????
 
 NodeList list1 = doc.getElementsByTagName("item");
 for(int j=0; j<list1.getLength(); j++){
@@ -225,7 +265,7 @@ timewindows[s][1] = String.valueOf(node.getTextContent());
 //System.out.print ("------------------------");
 }
 if (node.getNodeName().equals("checkouttime")){
-timewindows[s][2] = "2400";
+timewindows[s][2] = String.valueOf(node.getTextContent());
 //System.out.print ("checkouttime"+node.getTextContent()+" ");
 //System.out.print ("\n");
 //System.out.print ("------------------------");
@@ -281,14 +321,17 @@ timewindows[s][2] = "2400";
          //System.out.println("end="+end);
          time[s][2]=Integer.valueOf(end)*60+Integer.valueOf(endminutes);
       }
+      /*
 if(time[s][1]>time[s][2]&&time[s][2]<360){
 time[s][2]=1440;
       }
 else if(time[s][1]>time[s][2]&&time[s][2]>=360){
    time[s][1]=0;
-}
-      System.out.println("start="+time[s][1]);
-      System.out.println("end="+time[s][2]);
+}*/
+      //System.out.println("start end ");
+      System.out.println(time[s][1]+"\t");
+      System.out.println(time[s][2]);
+     // System.out.println("end="+time[s][2]);
       
       time_windows[s][1]= time[s][1];
       time_windows[s][2]= time[s][2];
@@ -313,14 +356,15 @@ else if(time[s][1]>time[s][2]&&time[s][2]>=360){
                
               // int adjacency_matrix[][] = new int[number_of_nodes + 1][number_of_nodes + 1];
              //  System.out.println("Enter Departure Time in your schedule");
-               int T = 600;
+               int T = 540;
                int stay_time[]= new int[list.size()+1]; 
            //    System.out.println("Enter the stay time at nodes");
                for (int z = 1; z <=  list.size(); z++)
                {
                    //stay_time[z] = scanner.nextInt();
                    stay_time[z] = list.get(z-1).getClipstay();
-                   System.out.println("stay time="+ stay_time[z]);
+                   System.out.println("stay time=");
+                   System.out.println(stay_time[z]+ "\t" );
                }
                
              
@@ -452,20 +496,67 @@ else if(time[s][1]>time[s][2]&&time[s][2]>=360){
           this.stay_time=staytime;
           
            numberOfNodes = adjacencyMatrix[1].length - 1;
-           
            int[] visited = new int[numberOfNodes + 1];
+           int fgettime=0, fexcesstime=0;
+           
+           if(time_windows[1][1]< time_windows[1][2]){
+               if (tnow>= (time_windows[1][1]/*-9999*/) 
+               				&& tnow + staytime[1]<= time_windows[1][2]/*+9999*/ 
+               						&& visited[1] == 0){
+               visited[1] = 1;
+               System.out.print(1 + "\t");
+               	if(tnow<=time_windows[1][1]){
+               	
+               	fgettime=time_windows[1][1]-tnow;
+               	
+               }
+               int outtime = tnow + staytime[1];
+               if(outtime>time_windows[1][2]){
+               	fexcesstime = time_windows[1][2]-outtime;
+               	
+               	
+               }
+               tnow=tnow+staytime[1]+fgettime-fexcesstime;
+               
+               stack.push(numberOfNodes);
+               stack.push(1);
+               }
+               
+               }
+               else if((tnow>= (time_windows[1][1]/*-9999*/) 
+               		&& visited[1] == 0)
+           				|| (tnow + staytime[1]<= time_windows[1][2]/*+9999*/
+           				&& visited[1] == 0)){
            visited[1] = 1;
+           System.out.print(1 + "\t");
+           if(tnow<=time_windows[1][1]
+           		&&tnow>=time_windows[1][2]){
+           	
+           	fgettime=time_windows[1][1]-tnow;
+           	System.out.println("fgettime"+fgettime);
+           }
+           int outtime = tnow + staytime[1];
+           if(outtime>time_windows[1][2]
+           		&&tnow<=time_windows[1][1]){
+           	fexcesstime = time_windows[1][2]-outtime;
+           	System.out.println("fexcesstime"+fexcesstime);
+           	
+           }
+           tnow=tnow+staytime[1]+fgettime-fexcesstime;
+           System.out.println("tnow"+tnow);
            stack.push(numberOfNodes);
-           stack.push(1);           
+           stack.push(1);
+           } 
             
            int element, dst = 0, i;
            int min = Integer.MAX_VALUE;
-           int Sum = 0 , Sum_waiting = 0, t, S;
+           int Sum = staytime[1] , Sum_waiting = 0, Sum_excesstime=0, totalMin=0, t, S;
            boolean minFlag = false;
-           System.out.print(1 + "\t");
-           System.out.print(list.get(0).getMapy()+ "\t"); 
-            System.out.print(list.get(0).getMapx()+ "\t"); 
-            System.out.print(list.get(0).getContentid()+ "\n");
+           
+           //System.out.print(1 + "\t");
+           //System.out.print(list.get(0).getMapy()+ "\t"); 
+            //System.out.print(list.get(0).getMapx()+ "\t"); 
+            //System.out.print(list.get(0).getContentid()+ "\n");
             flag = false;
             //PreparedStatement pstmt = null;
            try{
@@ -501,45 +592,93 @@ else if(time[s][1]>time[s][2]&&time[s][2]>=360){
                    System.out.println("tnow : "+tnow);
                    System.out.println("timewindow1: "+time_windows[i][1]);
                    System.out.println("timewindow2: "+time_windows[i][2]); */
-                   if (adjacencyMatrix[element][i] > 1 
-                         && tnow >= (time_windows[i][1]-15) 
-                               && tnow <= time_windows[i][2] 
+                  if(time_windows[i][1]< time_windows[i][2]){
+                  if (adjacencyMatrix[element][i] > 1 
+                         && tnow + adjacencyMatrix[element][i]>= (time_windows[i][1]/*-9999*/) 
+                               && tnow + adjacencyMatrix[element][i] + staytime[i]<= time_windows[i][2]/*+9999*/ 
                                      && visited[i] == 0)
                    {
                       
-                       if (min > (adjacencyMatrix[element][i]))
+                       if (min > (adjacencyMatrix[element][i]/*+adjacencyMatrix[i][numberOfNodes]*/))
                        {
-                           min = (adjacencyMatrix[element][i]);//????
+                           min = (adjacencyMatrix[element][i]/*+adjacencyMatrix[i][numberOfNodes]*/);
                            dst = i;
                            minFlag = true;
 
                            
                        } 
 
+                          
+
                    }       // 1번 노드로부터 7번 노드까지 갈 때, 가장 적은 값으로 적은 edge를 선택.
                   
-                   i++;
+                 
                   
                } 
+               
+              // if(time_windows[i][1]> time_windows[i][2]){
+                  else if ((adjacencyMatrix[element][i] > 1 
+                          && tnow + adjacencyMatrix[element][i]>= (time_windows[i][1]/*-9999*/) 	
+                          		&& visited[i] == 0)
+                                || (tnow + adjacencyMatrix[element][i] + staytime[i]<= time_windows[i][2]/*+9999*/ 
+                              		  && visited[i] == 0
+                              				  && adjacencyMatrix[element][i] > 1) 
+                                      )
+                    {
+                       
+                        if (min > (adjacencyMatrix[element][i]/*+adjacencyMatrix[i][numberOfNodes]*/))
+                        {
+                            min = (adjacencyMatrix[element][i]/*+adjacencyMatrix[i][numberOfNodes]*/);
+                            dst = i;
+                            minFlag = true;
+
+                            
+                        } 
+
+                           
+
+                    }       // 1번 노드로부터 7번 노드까지 갈 때, 가장 적은 값으로 적은 edge를 선택.
+                   
+                    i++;
+                  
+              } 
                if (minFlag)
                {   
                   int Min=min;
                         int semitime=tnow;
                             int   arrivaltime=semitime+adjacencyMatrix[element][dst];
+                            int gettime=0, excesstime=0;
                             
-                  if(arrivaltime<=time_windows[dst][1]){
-                     
-                     int gettime=time_windows[dst][1]-arrivaltime;
-                     Sum_waiting=gettime;
-                  }
+                            if(time_windows[dst][1]< time_windows[dst][2]){
+                            if(arrivaltime<=time_windows[dst][1]){
+                              
+                              gettime=time_windows[dst][1]-arrivaltime;
+                           }
+                            }
+                            else{
+                       		 if(arrivaltime<=time_windows[dst][1]
+                       		    		&&arrivaltime>=time_windows[dst][2]){
+                       		    	
+                       			 gettime=time_windows[dst][1]-arrivaltime; 
+                       		    	System.out.println("gettime"+gettime);
+                       		    }
+                            int outtime = arrivaltime + staytime[dst];
+                            if(outtime>time_windows[dst][2]
+                         			&&tnow<=time_windows[dst][1]){
+                         		excesstime = time_windows[dst][2]-outtime;
+                         		System.out.println("excesstime"+excesstime);
+                         		
+                         	}
+                            }
+                           
                    visited[dst] = 1;
                    stack.push(dst);
 
                    System.out.print(dst + "\t");
                   // System.out.print(dst + "\t");
-                   System.out.print(list.get(dst-1).getMapy()+ "\t"); 
-                   System.out.print(list.get(dst-1).getMapx()+ "\t");
-                   System.out.print(list.get(dst-1).getContentid()+ "\t"); 
+                   //System.out.print(list.get(dst-1).getMapy()+ "\t"); 
+                   //System.out.print(list.get(dst-1).getMapx()+ "\t");
+                   //System.out.print(list.get(dst-1).getContentid()+ "\t"); 
                    
                    
                    
@@ -554,10 +693,10 @@ else if(time[s][1]>time[s][2]&&time[s][2]>=360){
 
                    
                    
-                   		 list1.add(list.get(dst-1).getClip_code());
+                          list1.add(list.get(dst-1).getClip_code());
                    list1.add(Integer.toString(stack.size()-1));
-                   		  //list1.add(Integer.toString(dst));
-                   		  list1.add(list.get(dst-1).getContentid());
+                           //list1.add(Integer.toString(dst));
+                           list1.add(list.get(dst-1).getContentid());
                           list1.add(list.get(dst-1).getMapy());
                           list1.add(list.get(dst-1).getMapx());
                          
@@ -566,7 +705,7 @@ else if(time[s][1]>time[s][2]&&time[s][2]>=360){
                           //System.out.print(list1.get(0).getMapx()+ "\t"); 
                           //System.out.print(list1.get(dst-1).getMapx()+ "\t"); 
             
-                       System.out.println(list1);
+                       //System.out.println(list1);
                          
                        
                        flag = false;
@@ -585,7 +724,7 @@ else if(time[s][1]>time[s][2]&&time[s][2]>=360){
                         java.sql.PreparedStatement pstmt = conn.prepareStatement(sql);
                          java.sql.PreparedStatement pstmt2 = conn.prepareStatement(sql2);
                          
-                         System.out.println(list1);
+                        // System.out.println(list1);
                        /*  for(int s=0;s<5;s++){
                             list1.get(s);
                             
@@ -600,13 +739,13 @@ else if(time[s][1]>time[s][2]&&time[s][2]>=360){
                          pstmt.addBatch();
                         uprowcounts = pstmt.executeBatch();
                          conn.commit();
-                       //int count = pstmt.executeUpdate(); //insert sql문은 결과값이 처리된 데이터 숫자이다.
-                  /*if(count >0){
+                       int count = pstmt.executeUpdate(); //insert sql문은 결과값이 처리된 데이터 숫자이다.
+                  if(count >0){
                      flag = true;
                      }
-                  */    
-                         	/*pstmt.setString(1, list.get(dst-1).getClip_code());
-                         	pstmt.setInt(2, dst);
+                      
+                            /*pstmt.setString(1, list.get(dst-1).getClip_code());
+                            pstmt.setInt(2, dst);
                             pstmt.setString(3, list.get(dst-1).getContentid());
                             pstmt.setString(4, list.get(dst-1).getMapy());
                             pstmt.setString(5, list.get(dst-1).getMapx());
@@ -644,8 +783,11 @@ else if(time[s][1]>time[s][2]&&time[s][2]>=360){
 
                   //+ "&EY="+ list.get(e-1).getMapy()
                   //+ "&EX=" + list.get(e-1).getMapx()
-                   t= Min + tnow + staytime[dst];//(이동시간 최소+ 현재 시간+ 도착노드 staytime)
+                   t= Min + tnow + staytime[dst]+gettime-excesstime;//(이동시간 최소+ 현재 시간+ 도착노드 staytime - 초과된 시간)
                    S = Min + Sum + staytime[dst];//(이동시간 최소+staytime)
+                   Sum_waiting=Sum_waiting+gettime;
+                   Sum_excesstime = Sum_excesstime+ excesstime;
+                   totalMin=totalMin+adjacencyMatrix[element][dst];
                   // int M= Min;
                   // int totalMin = M+Min;
                    
@@ -653,8 +795,8 @@ else if(time[s][1]>time[s][2]&&time[s][2]>=360){
                   
                   tnow = t;
                    Sum = S;
-                  // System.out.print("tnow="+tnow + "\t");
-                  // System.out.print("Sum="+Sum + "\n");
+                   //System.out.print(Sum+"\t");
+                   //System.out.print(tnow+"\t");
                    minFlag = false;
                    continue;
                    // sum
@@ -666,11 +808,63 @@ else if(time[s][1]>time[s][2]&&time[s][2]>=360){
                  stack.pop(); //stack을 뽑기  System.out.print("\n");
              
            }
+               int lgettime=0, lexcesstime=0;
+               if(time_windows[numberOfNodes][1]< time_windows[numberOfNodes][2]){
+                   if (adjacencyMatrix[dst][numberOfNodes] > 1 
+                   		&& tnow + adjacencyMatrix[dst][numberOfNodes]>= (time_windows[numberOfNodes][1]/*-9999*/) 
+                   				&& tnow + adjacencyMatrix[dst][numberOfNodes] + staytime[numberOfNodes]<= time_windows[numberOfNodes][2]/*+9999*/ 
+                   						&& visited[numberOfNodes] == 0){
+                   	if(tnow<=time_windows[numberOfNodes][1]){
+                       	
+                   		lgettime=time_windows[numberOfNodes][1]-tnow;
+                       	
+                       }
+                       int outtime = tnow + staytime[numberOfNodes];
+                       if(outtime>time_windows[numberOfNodes][2]){
+                       	lexcesstime = time_windows[numberOfNodes][2]-outtime;
+                       	
+                       	
+                       }
+                       tnow=tnow+staytime[1]+lgettime-lexcesstime;
+                   visited[numberOfNodes] = 1;
+                   Sum=Sum+adjacencyMatrix[dst][numberOfNodes]+staytime[numberOfNodes];
+                   tnow=tnow+adjacencyMatrix[dst][numberOfNodes]+staytime[numberOfNodes];
+                   totalMin=totalMin+adjacencyMatrix[dst][numberOfNodes];
+                   System.out.print(numberOfNodes+"\n");}
+                   }
+                   else  if ((adjacencyMatrix[dst][numberOfNodes] > 1 
+                   		&& tnow + adjacencyMatrix[dst][numberOfNodes]>= (time_windows[numberOfNodes][1]/*-9999*/) 
+                   		&& visited[numberOfNodes] == 0)
+           				|| (adjacencyMatrix[dst][numberOfNodes] > 1
+           						&&tnow + adjacencyMatrix[dst][numberOfNodes] + staytime[numberOfNodes]<= time_windows[numberOfNodes][2]/*+9999*/ 
+           						&& visited[numberOfNodes] == 0))
+           						{    
+                   	
+                   	if(tnow<=time_windows[numberOfNodes][1]
+                       		&&tnow>=time_windows[numberOfNodes][2]){
+                       	
+                   		lgettime=time_windows[numberOfNodes][1]-tnow;
+                       	System.out.println("lgettime"+lgettime);
+                       }
+                       int outtime = tnow + staytime[numberOfNodes];
+                       if(outtime>time_windows[numberOfNodes][2]
+                       		&&tnow<=time_windows[numberOfNodes][1]){
+                       	lexcesstime = time_windows[numberOfNodes][2]-outtime;
+                       	System.out.println("lexcesstime"+lexcesstime);
+                       	
+                       }
+                       
+                       tnow=tnow+staytime[1]+lgettime-lexcesstime;
+           		visited[numberOfNodes] = 1;
+           		Sum=Sum+adjacencyMatrix[dst][numberOfNodes]+staytime[numberOfNodes];
+           		tnow=tnow+adjacencyMatrix[dst][numberOfNodes]+staytime[numberOfNodes];
+           		totalMin=totalMin+adjacencyMatrix[dst][numberOfNodes];
+           		System.out.print(numberOfNodes+"\n");}
            
-           System.out.print(numberOfNodes+ "\t");
-           System.out.print(list.get(numberOfNodes-1).getMapy()+ "\t"); 
-            System.out.print(list.get(numberOfNodes-1).getMapx()+ "\t"); 
-            System.out.print(list.get(numberOfNodes-1).getContentid()+ "\n");
+           //System.out.print(numberOfNodes+ "\t");
+           //System.out.print(list.get(numberOfNodes-1).getMapy()+ "\t"); 
+            //System.out.print(list.get(numberOfNodes-1).getMapx()+ "\t"); 
+           // System.out.print(list.get(numberOfNodes-1).getContentid()+ "\n");
             flag = false;
             //PreparedStatement pstmt = null;
            try{
@@ -695,24 +889,30 @@ else if(time[s][1]>time[s][2]&&time[s][2]>=360){
            System.err.println(e.getMessage());
        }
             
+  
             
-            
-            
-            
-            
-            
-            System.out.print("Total travel time is : ");//총 여행시간
-           System.out.print(Sum+adjacencyMatrix[dst][numberOfNodes]+staytime[numberOfNodes]);
+           System.out.print("Total travel time is : ");//총 여행시간
+           System.out.print(Sum);
            System.out.print("\n");
-           //System.out.print("Total transportation time is : ");//총 이동시간
-           //System.out.print(totalMin+adjacencyMatrix[dst][numberOfNodes]);
-           //System.out.print("\n");
-           System.out.print("travel end time is : ");//총 이동시간
-           System.out.print(tnow+adjacencyMatrix[dst][numberOfNodes]+staytime[numberOfNodes]);
+           System.out.print("Total transportation time is : ");//총 이동시간
+           System.out.print(totalMin);
+           System.out.print("\n");
+           System.out.print("travel end time is : ");//총 여행 끝나는 시간
+           System.out.print(tnow);
            System.out.print("\n");
            System.out.print("Total waiting time is : ");
            System.out.print(Sum_waiting);
+           System.out.print("\n");
+           System.out.print("Total excess time is : ");
+           System.out.print(Sum_excesstime);
+           System.out.print("\n");
+           System.out.print("You can't go to : ");
+           for(int a=1; a<=numberOfNodes; a++ ){
+               if(visited[a] == 0){
+                    System.out.print(a +"\t");
+               }
+           }
        }
-          
-               
-   }
+}
+
+        

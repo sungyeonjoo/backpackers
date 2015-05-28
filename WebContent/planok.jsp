@@ -37,11 +37,11 @@
 		pstmt.setString(5,plan_period);
 		pstmt.setString(6,member_id);
 		session.setAttribute("plan_code", plan_code);
-		response.sendRedirect("planyourtriptest.jsp");
+		response.sendRedirect("planyourtrip.jsp");
 		%>
 		<script>
 		self.window.alert("new plan enroll.");	
-		location.href="http://localhost:7685/backpackers/planyourtriptest.jsp";
+		location.href="http://localhost:7685/backpackers/planyourtrip.jsp";
 		</script>
 		<%
 		pstmt.execute();
